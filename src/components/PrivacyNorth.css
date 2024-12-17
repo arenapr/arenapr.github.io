@@ -1,0 +1,16 @@
+.privacy-north-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 5vw;
+    padding-bottom: 2vw;
+}
+
+.privacy-north-container * {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: normal;
+    text-align: left;
+}

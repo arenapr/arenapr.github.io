@@ -1,0 +1,21 @@
+  .middle {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: calc(3px + 2vw);
+  }
+
+  .same-line {
+    display: inline;
+  }
+
+  .email {
+    color: #ca3631;
+  }

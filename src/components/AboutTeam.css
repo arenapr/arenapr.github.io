@@ -1,0 +1,52 @@
+.about-team-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: auto;
+    max-width: 95%;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-team-container > h1 {
+  font-size: 7vw;
+  font-weight: normal;
+}
+  
+.about-team-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.team-image-container {
+  display: grid;
+  grid-template-rows: repeat(18, 2vw);
+  grid-template-columns: repeat(14, 2vw);
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+.team-image-container > img {
+  grid-row: 1 / span 13;
+  grid-column: 1;
+  height: 100%;
+  display: block;
+}
+
+.team-image-container p {
+  font-family: 'JuraBold';
+  font-size: calc(6px + 1vw);
+  font-weight: normal;
+  grid-row: 16 / span 5;
+  grid-column: 1 / span 13;
+  margin-top: 10px;
+}
+
+.team-redbox {
+  background-color: #ca3631;
+  grid-row: 2 / span 13;
+  grid-column: 2 / span 13;
+}

@@ -1,0 +1,11 @@
+.south-container {
+    background-color: #ca3631;
+    width: 100%;
+    padding: 3vw 0;
+}
+
+.south-container h1 {
+    color: #fff;
+    font-size: 10vw;
+    font-weight: normal;
+}

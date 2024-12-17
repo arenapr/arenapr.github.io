@@ -1,0 +1,15 @@
+.alexis-blog-north-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 2vw;
+}
+
+.alexis-blog-north-container h1 {
+    color: #000;
+    font-size: 7vw;
+    font-weight: normal;
+    text-align: left;
+    letter-spacing: -0.6vw;
+}

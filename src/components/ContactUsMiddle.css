@@ -1,0 +1,16 @@
+.contact-us-middle-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3%;
+    align-items: center;
+    justify-items: center;
+}
+
+.contact-us-middle-container > p {
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px;
+}
