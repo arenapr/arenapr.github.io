@@ -14,12 +14,14 @@ video {
     /* grid-template-columns: repeat(20, 8vw);
     grid-template-rows: repeat(20, 8vh); */
     row-gap: 1vh;
+    padding: 5vw;
 }
 
 .hero-container > h1 {
     color: #fff;
     font-weight: normal;
-    font-size:calc(12px + 10vw);
+    /* font-size:calc(12px + 16vw); */
+    font-size: 80px;
     grid-row: 1;
     grid-column: 1 / span 12;
 }

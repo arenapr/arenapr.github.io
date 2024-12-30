@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* <video src='/videos/falstaff_show.MOV' autoPlay loop muted /> */}
-      <h1>PROJECT<br></br>ARENA</h1>
+      <h1>ARENA</h1>
       {/* <div className='photo'></div> */}
       {/* <p>At ARENA we spotlight the talent of local fashion designers from El Paso, TX, and the borderland.</p>
       <div className='hero-btns'>

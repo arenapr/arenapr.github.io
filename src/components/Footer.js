@@ -28,7 +28,7 @@ function Footer() {
 
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-text'>
             Sign up for feel-good updates and first access to exclusive events and parnership collaborations.
         </p>
@@ -44,8 +44,20 @@ function Footer() {
           <button type="subscribe">SUBSCRIBE</button>
         </div>
       </form>
-      {message && <p>{message}</p>}
         <p>We respect your privacy</p>
+      </section> */}
+      <section className='footer-subscription'>
+        <p className='footer-subscription-text'>
+            Follow us on Instagram for more exclusive content.
+        </p>
+        <div className='footer-link-items'>
+          <Link to='https://www.instagram.com/arena__pr/' target="_blank">
+            <img src='/images/IG-arena_White copy.png' width={40} height={40} alt='IG Logo' /><br/>
+          </Link>
+          <Link to='https://www.instagram.com/arena__pr/' target="_blank">
+            @arena__pr
+          </Link>
+        </div>
       </section>
         <div className='footer-links'>
             <div className='footer-link-wrapper'>

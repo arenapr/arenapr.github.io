@@ -8,6 +8,7 @@ import About from './components/pages/About';
 import ContactUs from './components/pages/ContactUs';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import AlexisLopezBlog from './components/pages/Blogs/AlexisLopezBlog';
+import SergioEstradaBlog from './components/pages/Blogs/SergioEstradaBlog';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/contact-us' Component={ContactUs}/>
         <Route path='/privacy-policy' Component={PrivacyPolicy} />
         <Route path='blog/alexis-lopez-blog' Component={AlexisLopezBlog} />
+        <Route path='blog/sergio-estrada-blog' Component={SergioEstradaBlog} />
       </Routes>
     </Router>
     </>

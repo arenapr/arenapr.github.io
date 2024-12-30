@@ -1,0 +1,105 @@
+.sergio-blog-middle-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    padding: 2vw;
+}
+
+.sergio-blog-middle-container h1 {
+    color: #000;
+    font-size: 3vw;
+    font-weight: normal;
+    text-align: center;
+    margin: 1vw;
+    margin-top: 3vw;
+    letter-spacing: -0.2vw;
+}
+
+.sergio-blog-middle-container p {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 12px;
+    text-align: left;
+}
+
+.sergio-images-container {
+    display: flex;
+    max-width: 95%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.sergio-images-container > img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-right: 2vw;
+}
+
+b {
+    font-weight: bold;
+    font-size: smaller; /* Ensures bold text does not change size */
+}
+
+.sergio-body-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(10, auto);
+}
+
+.sergio-body-container p {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 2vw;
+    text-align: left;
+    line-height: 2.5vw;
+}
+
+.sergio-body-container b {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 3vw;
+    text-align: left;
+    line-height: 2.5vw;
+}
+
+.sergio-body-container b span {
+    box-shadow: inset 0px -2.3vw 0px 0px rgb(218, 123, 255);
+}
+
+.sergio-left-column {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 10;
+    margin-top: 2vw;
+    margin-right: 4vw;
+}
+
+.sergio-right-column {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 10;
+    margin-top: 2vw;
+    margin-right: 2vw;
+    margin-left: 4vw;
+}
+
+@media screen and (max-width: 960px) {
+    .sergio-blog-middle-container {
+        /* padding-left: 5vw; */
+        padding: 5vw;
+        width: auto;
+    }
+
+    .sergio-images-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sergio-images-container > img {
+        width: 80vw;
+        height: 80vw;
+        margin-bottom: 10px;
+    }
+}

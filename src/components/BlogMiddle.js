@@ -31,7 +31,7 @@ function BlogMiddle() {
                 <CardItem 
                   src='images/6par6noid6.jpeg'
                   text='SERGIO ESTRADA AND THE PURSUIT OF EXCELLENCE'
-                  path='./sergio-estrada'
+                  path='./sergio-estrada-blog'
                 />
                 <CardItem 
                   src='images/hex_by_lex.jpg'

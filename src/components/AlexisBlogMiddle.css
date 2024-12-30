@@ -1,36 +1,46 @@
 .alexis-blog-middle-container {
+    /* background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw; */
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    padding: 2vw;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .alexis-blog-middle-container h1 {
     color: #000;
-    font-size: 3vw;
+    font-size: 32px;
     font-weight: normal;
     text-align: center;
     margin: 1vw;
-    margin-top: 3vw;
+    margin-top: 1vw;
     letter-spacing: -0.2vw;
 }
 
 .alexis-blog-middle-container p {
-    color: #000;
+    /* color: #000;
     font-family: 'JuraBold';
     font-size: 2vw;
+    text-align: left; */
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 12px;
     text-align: left;
 }
 
 .alexis-images-container {
     display: flex;
     max-width: 95%;
-    margin: 2vw;
+    margin: 1vw;
 }
 
 .alexis-images-container > img {
-    width: 30vw;
-    height: 30vw;
+    width: 275px;
+    height: 275px;
     display: block;
     margin: 0.5vw;
 }
@@ -44,21 +54,21 @@
 .alexis-body-container p {
     color: #000;
     font-family: 'JuraBold';
-    font-size: 2vw;
+    font-size: 12px;
     text-align: left;
-    line-height: 2.5vw;
+    /* line-height: 2.5vw; */
 }
 
 .alexis-body-container b {
     color: #000;
     font-family: 'JuraBold';
-    font-size: 3vw;
+    font-size: 24px;
     text-align: left;
-    line-height: 2.5vw;
+    /* line-height: 2.5vw; */
 }
 
 .alexis-body-container b span {
-    box-shadow: inset 0px -2.3vw 0px 0px rgb(218, 123, 255);
+    box-shadow: inset 0px -17px 0px 0px rgb(218, 123, 255);
 }
 
 .left-column {
@@ -73,4 +83,41 @@
     grid-row: 1 / span 10;
     margin: 2vw;
     margin-left: 4vw;
+}
+
+@media screen and (max-width: 960px) {
+    .alexis-blog-middle-container {
+        /* padding-left: 5vw; */
+        padding: 5vw;
+        width: auto;
+    }
+
+    .alexis-images-container {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+
+    .alexis-blog-middle-container h1 {
+        font-size: 3vw;
+        margin-top: 12px;
+    }
+
+    .alexis-images-container > img {
+        width: 33vw;
+        height: 33vw;
+        margin-bottom: 10px;
+    }
+
+    .alexis-body-container p {
+        font-size: 2vw;
+    }
+    
+    .alexis-body-container b {
+        font-size: 3vw;
+    }
+
+    .alexis-body-container b span {
+        box-shadow: inset 0px -2.3vw 0px 0px rgb(218, 123, 255);
+    }
 }

@@ -86,7 +86,7 @@
 }
 
 .footer-link-items {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -103,7 +103,6 @@
     text-decoration: none;
     margin-right: 25px;
     margin-left: 25px;
-    margin-bottom: 8px;
 }
 
 .footer-link-items a:hover {

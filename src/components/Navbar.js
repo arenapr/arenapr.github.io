@@ -33,12 +33,17 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-            PROJECT ARENA
+          <img src='/images/ARENA-03.png' width={50} height={50} alt='Arena Logo' />
           </Link>
           <div className='menu-icon'>
             <Hamburguer toggled={click} toggle={setClick} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+                <Link to='/' className='nav-links home-link' onClick={closeMobileMenu}>
+                    HOME
+                </Link>
+            </li>
             <li className='nav-item'>
                 <Link to='/about' className='nav-links about-link' onClick={closeMobileMenu}>
                     ABOUT

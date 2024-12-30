@@ -1,9 +1,4 @@
-.alexis-blog-north-container {
-    /* background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding: 2vw; */
+.sergio-blog-north-container {
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -12,12 +7,7 @@
     padding: 2vw;
 }
 
-.alexis-blog-north-container h1 {
-    /* color: #000;
-    font-size: 7vw;
-    font-weight: normal;
-    text-align: left;
-    letter-spacing: -0.6vw; */
+.sergio-blog-north-container h1 {
     color: #000;
     font-size: 4vw;
     font-weight: normal;
@@ -26,13 +16,13 @@
 }
 
 @media screen and (max-width: 960px) {
-    .alexis-blog-north-container {
+    .sergio-blog-north-container {
         padding-left: 5vw;
         padding-right: 5vw;
         width: auto;
     }
 
-    .alexis-blog-north-container h1 {
+    .sergio-blog-north-container h1 {
         font-size: 5vw;
     }
 }
