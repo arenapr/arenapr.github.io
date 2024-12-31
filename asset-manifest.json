@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d646f10.css",
-    "main.js": "/static/js/main.d27b85e3.js",
+    "main.css": "/static/css/main.0423a0d5.css",
+    "main.js": "/static/js/main.03fe6622.js",
     "static/media/hex_by_lex.jpg": "/static/media/hex_by_lex.4338179d2b14e3a35503.jpg",
     "static/media/gbenga-onalaja-unsplash.jpg": "/static/media/gbenga-onalaja-unsplash.2057086ab0a5725becd9.jpg",
     "static/media/Jura-Regular.ttf": "/static/media/Jura-Regular.0a4ac78909358bf67d67.ttf",
     "static/media/Jura-Bold.ttf": "/static/media/Jura-Bold.ebc36b579e40c6b39a15.ttf",
     "static/media/KronaOne-Regular.ttf": "/static/media/KronaOne-Regular.97c7e647eef168b16a0b.ttf",
     "index.html": "/index.html",
-    "main.3d646f10.css.map": "/static/css/main.3d646f10.css.map",
-    "main.d27b85e3.js.map": "/static/js/main.d27b85e3.js.map"
+    "main.0423a0d5.css.map": "/static/css/main.0423a0d5.css.map",
+    "main.03fe6622.js.map": "/static/js/main.03fe6622.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d646f10.css",
-    "static/js/main.d27b85e3.js"
+    "static/css/main.0423a0d5.css",
+    "static/js/main.03fe6622.js"
   ]
 }
