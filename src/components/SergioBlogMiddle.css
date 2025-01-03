@@ -39,8 +39,9 @@
 }
 
 b {
+    font-family: 'JuraBold';
     font-weight: bold;
-    font-size: smaller; /* Ensures bold text does not change size */
+    font-size: smaller; 
 }
 
 .sergio-body-container {

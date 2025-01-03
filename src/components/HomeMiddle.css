@@ -1,6 +1,5 @@
 .home-middle-container {
     background: #000 center center/cover no-repeat;
-    /* height: auto; */
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -11,35 +10,36 @@
 
 .components-container {
     background: #000 center center/cover no-repeat;
-    /* height: auto; */
-    width: 90%;
+    width: 900px;
+    margin: 10px;
+    padding: 10px;
     display: grid;
-    grid-template-columns: repeat(21, 7vw);
-    grid-template-rows: repeat(10, 7vw);
-    column-gap: 1vw;
-    row-gap: 1vh;
+    grid-template-columns: repeat(21, 50px);
+    grid-template-rows: repeat(10, 50px);
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 .whitebox > h1 {
     font-weight: normal;
     color: #ca3631;
-    font-size: calc(10px + 2vw);
+    font-size: 32px;
     grid-row: 6 / span 4;
     grid-column: 7 / span 4;
     text-align: left;
-    margin: 5vw;
+    margin: 50px;
 }
 
 .whitebox > p {
     color: #000;
     font-family: 'JuraBold';
-    font-size: calc(3px + 2vw);
+    font-size: 16px;
     font-weight: normal;
     text-align: left;
     grid-row: 6 / span 4;
     grid-column: 7 / span 4;
     text-align: left;
-    margin: 5vw;
+    margin: 50px;
 }
 
 .hero-btns {
@@ -71,4 +71,24 @@
     background-color: #fff;
     grid-row: 4 / span 6;
     grid-column: 5 / span 7;
+}
+
+@media screen and (max-width: 960px) {
+    .components-container {
+        width: 90%;
+        grid-template-columns: repeat(21, 7vw);
+        grid-template-rows: repeat(10, 7vw);
+        column-gap: 1vw;
+        row-gap: 1vh;
+    }
+    
+    .whitebox > h1 {
+        font-size: calc(10px + 2vw);
+        margin: 5vw;
+    }
+    
+    .whitebox > p {
+        font-size: calc(3px + 2vw);
+        margin: 5vw;
+    }
 }

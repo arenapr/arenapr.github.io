@@ -13,7 +13,6 @@ function About() {
           <AboutNorth />
           <AboutMiddle />
           <AboutSouth />
-          <AboutTeam />
           <Footer />
         </>
     );
