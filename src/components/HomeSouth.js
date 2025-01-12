@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import '../App.css'
-import './HomeMiddle.css'
+import './HomeSouth.css'
 
-function HomeMiddle() {
+function HomeSouth() {
   const [hasAnimated, setHasAnimated] = useState(false);
   const squareRef = useRef(null);
 
@@ -30,18 +30,20 @@ function HomeMiddle() {
   }, [hasAnimated]);
 
   return (
-    <div id='home-about' className='offwhite-background'>
-      <div className='home-middle-container'>
+    <div id='home-contact-us' className='offwhite-background'>
+      <div className='home-south-container'>
           <h1>
-              At ARENA, our mission is to spotlight and promote the exceptional talent of 
-              local fashion designers from the borderland.
+              We are in constant search for emerging local talent in the borderland.<br/><br/>
+              Are you a local fashion designer that wants to showcase your work?<br/><br/>
+              Send us an email and let us know!<br/><span style={{color: '#ca3631'}}>arena.pr@outlook.com</span><br/><br/>
+              Please include your name, the name of your brand, and your social media handles.
           </h1>
-          <div ref={squareRef} 
-               className={`home-middle-red-square ${hasAnimated ? 'visible' : 'hidden'}`}>
+          <div  ref={squareRef} 
+               className={`home-south-red-square ${hasAnimated ? 'visible' : 'hidden'}`}>
           </div>
       </div>
     </div>
   )
 }
 
-export default HomeMiddle
+export default HomeSouth

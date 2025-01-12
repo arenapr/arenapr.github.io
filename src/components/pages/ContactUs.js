@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import ContactUsNorth from '../ContactUsNorth';
-import ContactUsMiddle from '../ContactUsMiddle';
+import HomeSouth from '../HomeSouth';
 import Footer from '../Footer';
 
 function ContactUs() {
@@ -9,7 +9,7 @@ function ContactUs() {
     return (
         <>
           <ContactUsNorth />
-          <ContactUsMiddle />
+          <HomeSouth />
           <Footer />
         </>
     );

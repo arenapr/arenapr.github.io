@@ -61,6 +61,11 @@
     font-size: 100px;
   } */
   
+  .offwhite-background {
+    background-color: #f7f7f7;
+    width: 100%;
+  }
+
   .sign-up {
     background-image: url('/public/images/hex_by_lex.jpg');
     background-position: center;

@@ -1,17 +1,38 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import '../../App.css'
-import HeroSection from '../HeroSection'
+import HomeNorth from '../HomeNorth'
 import HomeMiddle from '../HomeMiddle';
-import Cards from '../Cards';
+import HomeMiddle2 from '../HomeMiddle2';
+import HomeSouth from '../HomeSouth';
 import Footer from '../Footer';
+import { useLocation } from 'react-router-dom';
 
 function Home() {
-    window.scrollTo(0, 0);
+    const location = useLocation();
+
+    useEffect(() => {
+      if (location.state?.scrollPosition) {
+        const contactUsElement = document.querySelector(location.state.scrollPosition);
+        const navbarHeight = document.querySelector('.navbar').offsetHeight;
+        const offset = navbarHeight;
+        const topPosition = contactUsElement.offsetTop - offset;
+
+        window.scrollTo({
+          top: topPosition,
+          behavior: 'smooth',
+        });
+      }
+      else{
+        window.scrollTo(0, 0);
+      }
+    }, [location.state]);
+    
     return (
         <>
-          <HeroSection />
+          <HomeNorth />
           <HomeMiddle />
-          <Cards />
+          <HomeMiddle2 />
+          <HomeSouth />
           <Footer />
         </>
     );

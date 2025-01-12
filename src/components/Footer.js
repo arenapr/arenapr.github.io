@@ -28,24 +28,6 @@ function Footer() {
 
   return (
     <div className='footer-container'>
-      {/* <section className='footer-subscription'>
-        <p className='footer-subscription-text'>
-            Sign up for feel-good updates and first access to exclusive events and parnership collaborations.
-        </p>
-        <form onSubmit={handleSubmit}>
-        <div className='input-areas'>
-          <input
-            type='email'
-            placeholder='  Email Adress'
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-          <button type="subscribe">SUBSCRIBE</button>
-        </div>
-      </form>
-        <p>We respect your privacy</p>
-      </section> */}
       <section className='footer-subscription'>
         <p className='footer-subscription-text'>
             Follow us on Instagram for more exclusive content.

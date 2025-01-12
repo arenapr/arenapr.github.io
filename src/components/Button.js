@@ -1,9 +1,8 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Button.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 
 const STYLES = ['btn--primary', 'btn--outline'];
-
 const SIZES = ['btn--medium', 'btn--large'];
 
 function validateEmail() {
@@ -27,13 +26,22 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
+    const navigate = useNavigate();
+
+    const scrollToContactUs = () => {
+        navigate('/', { state: { scrollPosition: '#home-contact-us' } })
+    };
+
     if (type === 'contact-us') {
         return(
-            <Link to='/contact-us' className='btn-mobile'>
-                <button className={`btn ${checkButtonStyle} ${checkButtonSize} btn-contact-us`} onClick={onClick} type={type}>
-                    {children}
-                </button>
-            </Link>
+            <button className={`btn ${checkButtonStyle} ${checkButtonSize} btn-contact-us`} 
+                onClick={(e) => {
+                    scrollToContactUs();
+                }}
+                type={type}
+            >
+                {children}
+            </button>
         )
     } else if (type === 'subscribe') {
         return(

@@ -1,4 +1,4 @@
-.home-middle-container {
+.home-south-container {
     background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -9,13 +9,13 @@
     margin: auto;
 }
 
-.home-middle-container > h1 {
+.home-south-container > h1 {
     color: #000;
-    font-size: 42px;
+    font-size: 38px;
     font-weight: normal;
 }
 
-.home-middle-red-square {
+.home-south-red-square {
     background-color: #ca3631;
     min-width: 50px;
     min-height: 50px;
@@ -25,23 +25,23 @@
     opacity: 0; 
 }
   
-.home-middle-red-square.visible {
+.home-south-red-square.visible {
     transform: translateX(0);
     opacity: 1;
     pointer-events: none;
 }
 
-.home-middle-red-square.hidden {
+.home-south-red-square.hidden {
     transform: translateX(-100%);
     opacity: 0.8;
 }
 
 @media screen and (max-width: 960px) {
-    .home-middle-container {
+    .home-south-container {
       width: 100%;
     }
 
-    .home-middle-container > h1 {
-        font-size: 29px;
+    .home-south-container > h1 {
+        font-size: 18px;
     }
 }
