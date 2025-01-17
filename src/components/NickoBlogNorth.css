@@ -1,0 +1,28 @@
+.nicko-blog-north-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: 0 auto;
+    padding: 2vw;
+}
+
+.nicko-blog-north-container h1 {
+    color: #000;
+    font-size: 4vw;
+    font-weight: normal;
+    text-align: left;
+    letter-spacing: -0.6vw;
+}
+
+@media screen and (max-width: 960px) {
+    .nicko-blog-north-container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: auto;
+    }
+
+    .nicko-blog-north-container h1 {
+        font-size: 5vw;
+    }
+}

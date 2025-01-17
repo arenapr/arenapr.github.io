@@ -26,6 +26,13 @@ function BlogMiddle() {
                     path='./alexis-lopez-blog'
                   />
               </ul>
+              <ul className='cards__items'>
+                  <CardItem 
+                    src='images/Meaningless_1080x1080.png'
+                    text="MAKING CONNECTIONS: NICKO SENA'S MEANINGLESS CONNECTION"
+                    path='./nicko-sena-blog'
+                  />
+              </ul>
           </div>
         </div>
       </div>

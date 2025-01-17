@@ -1,0 +1,109 @@
+.nicko-blog-middle-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.nicko-blog-middle-container h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    letter-spacing: -0.2vw;
+}
+
+.nicko-blog-middle-container p {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 12px;
+    text-align: left;
+    margin-left: 2vw;
+    margin-right: 0;
+}
+
+.nicko-blog-middle-container i {
+    font-weight: normal;
+    font-size: smaller;
+    /* display: inline-block; */
+    /* margin-left: 50px; */
+}
+
+.nicko-images-container {
+    display: flex;
+    max-width: 95%;
+    margin: 1vw;
+    justify-content: center;
+    align-items: center; 
+}
+
+.nicko-images-container > img {
+    width: 682px;
+    height: 449px;
+    display: block;
+    margin: 0.5vw;
+}
+
+.nicko-body-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(10, auto);
+}
+
+.nicko-body-container p {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 12px;
+    text-align: left;
+}
+
+.nicko-body-container b {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 18px;
+    text-align: left;
+}
+
+b, strong {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.nicko-left-column {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 10;
+    margin-right: 2vw;
+}
+
+.nicko-right-column {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 10;
+    margin: 2vw;
+    margin-left: 4vw;
+}
+
+@media screen and (max-width: 960px) {
+    .nicko-blog-middle-container {
+        padding: 5vw;
+        width: auto;
+    }
+
+    .nicko-blog-middle-container h1 {
+        font-size: 3vw;
+        margin-top: 12px;
+    }
+
+    .nicko-images-container > img {
+        width: 68.2vw;
+        height: 44.9vw;
+        margin-bottom: 10px;
+    }
+    
+    .nicko-body-container b {
+        font-size: 3vw;
+    }
+}
