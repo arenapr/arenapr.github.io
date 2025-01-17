@@ -29,8 +29,6 @@
 .nicko-blog-middle-container i {
     font-weight: normal;
     font-size: smaller;
-    /* display: inline-block; */
-    /* margin-left: 50px; */
 }
 
 .nicko-images-container {
@@ -95,6 +93,7 @@ b, strong {
     .nicko-blog-middle-container h1 {
         font-size: 3vw;
         margin-top: 12px;
+        margin-bottom: 5vw;
     }
 
     .nicko-images-container > img {
