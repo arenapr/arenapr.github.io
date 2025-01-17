@@ -7,11 +7,15 @@
 </head>
 <body>
   <script>
-    // Capture the current path
-    const currentPath = window.location.pathname;
+    // Redirect to the index.html with the current path as a query parameter
+    const redirectTo = '/';
+    const path = window.location.pathname;
 
-    // Redirect to index.html with the original path as a hash
-    window.location.replace(`/${currentPath}`);
+    if (path !== redirectTo) {
+      window.history.replaceState(null, '', redirectTo);
+    }
+
+    window.location.href = `${redirectTo}#${path}`;
   </script>
 </body>
 </html>
