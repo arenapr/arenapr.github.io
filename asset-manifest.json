@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.72d2783c.css",
+    "main.css": "/static/css/main.aebb91ae.css",
     "main.js": "/static/js/main.2d877a4e.js",
     "static/media/hex_by_lex.jpg": "/static/media/hex_by_lex.4338179d2b14e3a35503.jpg",
     "static/media/gbenga-onalaja-unsplash.jpg": "/static/media/gbenga-onalaja-unsplash.2057086ab0a5725becd9.jpg",
@@ -8,11 +8,11 @@
     "static/media/Jura-Bold.ttf": "/static/media/Jura-Bold.ebc36b579e40c6b39a15.ttf",
     "static/media/KronaOne-Regular.ttf": "/static/media/KronaOne-Regular.97c7e647eef168b16a0b.ttf",
     "index.html": "/index.html",
-    "main.72d2783c.css.map": "/static/css/main.72d2783c.css.map",
+    "main.aebb91ae.css.map": "/static/css/main.aebb91ae.css.map",
     "main.2d877a4e.js.map": "/static/js/main.2d877a4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.72d2783c.css",
+    "static/css/main.aebb91ae.css",
     "static/js/main.2d877a4e.js"
   ]
 }
