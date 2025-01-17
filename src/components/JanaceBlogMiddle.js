@@ -7,7 +7,7 @@ function JanaceBlogMiddle(props) {
     <>
       <div className='offwhite-background'>
         <div className='janace-blog-middle-container'>
-          <p>Updated on 1.11.2025 by Fernanda Ortiz</p><br/><br/>
+          <p>Updated on 9.9.2024 by Fernanda Ortiz</p><br/><br/>
           <p>Janace Griffin—better known as Junkdredz—is a creative force who’s done it all and still manages to 
             keep us guessing about what she’ll tackle next. A published children’s book author, founder of The 
             El Paso Black Arts Association, and all-around artistic powerhouse, Janace doesn’t just stop there. 
@@ -65,10 +65,10 @@ function JanaceBlogMiddle(props) {
                 the journey unfold.
               </p>
               <br/>
-              <p>
+              <p><strong>
                 Janace Griffin is not just paving the way for Black artists—she’s showing us all that no dream 
                 is too big and no transformation is too bold.
-              </p>
+              </strong></p>
             </div>
           </div>
         </div>

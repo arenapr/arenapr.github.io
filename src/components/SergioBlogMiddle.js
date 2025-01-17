@@ -7,12 +7,12 @@ function SergioBlogMiddle(props) {
     <>
       <div className='offwhite-background'>
         <div className='sergio-blog-middle-container'>
-          <p>Updated on 12.29.2024 by Fernanda Ortiz</p>
+          <p>Updated on 8.16.2024 by Fernanda Ortiz</p>
           <div className='sergio-images-container'>
               <img src='../images/6par6noid6.jpeg' alt='Sergio Image'></img>
               <p>When you think of fashion, you might picture glamorous runways, polished collections, and glossy magazine 
                   covers. But for designer Sergio Estrada, fashion is far more personal. It’s a way to navigate emotions 
-                  and tell his truth to anyone willing to listen—or, in his case, to wear it. His brand, PARANOID, reflects 
+                  and tell his truth to anyone willing to listen—or, in his case, to wear it. His brand, <strong>PARANOID</strong>, reflects 
                   all the messy, raw feelings that life throws at us, and it resonates with people who crave authenticity in 
                   a world full of trends.<br/><br/>
                   “I don’t know if it’s because someone broke my heart,” Sergio laughs, explaining how he first got 
@@ -53,8 +53,8 @@ function SergioBlogMiddle(props) {
           Always keep doing you, and people are always going to get behind you, regardless.”<br/><br/>
           In a world full of trends, Sergio Estrada and PARANOID are carving out a space for fashion that’s honest and unapologetically 
           real.<br/><br/>
-          Sergio’s drive for perfection is exactly what makes him one to watch. The El Paso Strong fashion show may have been a turning 
-          point, but if there’s one thing we know about him, it’s that he’s just getting started.
+          <strong>Sergio’s drive for perfection is exactly what makes him one to watch. The El Paso Strong fashion show may have been a turning 
+          point, but if there’s one thing we know about him, it’s that he’s just getting started.</strong>
           </p>
         </div>
       </div>

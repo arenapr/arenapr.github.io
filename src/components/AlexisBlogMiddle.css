@@ -1,8 +1,4 @@
 .alexis-blog-middle-container {
-    /* background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 2vw; */
     background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -22,14 +18,15 @@
 }
 
 .alexis-blog-middle-container p {
-    /* color: #000;
-    font-family: 'JuraBold';
-    font-size: 2vw;
-    text-align: left; */
     color: #000;
     font-family: 'JuraBold';
     font-size: 12px;
     text-align: left;
+}
+
+.alexis-blog-middle-container i {
+    display: inline-block;
+    margin-left: 50px;
 }
 
 .alexis-images-container {
@@ -56,7 +53,6 @@
     font-family: 'JuraBold';
     font-size: 12px;
     text-align: left;
-    /* line-height: 2.5vw; */
 }
 
 .alexis-body-container b {
@@ -64,7 +60,6 @@
     font-family: 'JuraBold';
     font-size: 24px;
     text-align: left;
-    /* line-height: 2.5vw; */
 }
 
 .alexis-body-container b span {
@@ -74,8 +69,7 @@
 .left-column {
     grid-column: 1 / span 1;
     grid-row: 1 / span 10;
-    margin: 2vw;
-    margin-right: 4vw;
+    margin-bottom: 2vw;
 }
 
 .right-column {
@@ -87,15 +81,13 @@
 
 @media screen and (max-width: 960px) {
     .alexis-blog-middle-container {
-        /* padding-left: 5vw; */
         padding: 5vw;
         width: auto;
     }
 
     .alexis-images-container {
-        /* display: flex;
-        flex-direction: column;
-        align-items: center; */
+        margin: 0;
+        margin-top: 1vw;
     }
 
     .alexis-blog-middle-container h1 {
@@ -104,8 +96,9 @@
     }
 
     .alexis-images-container > img {
-        width: 33vw;
-        height: 33vw;
+        width: 32vw;
+        height: 32vw;
+        margin-right: 1vw;
         margin-bottom: 10px;
     }
     

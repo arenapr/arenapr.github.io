@@ -7,7 +7,7 @@ function AlexisBlogNorth(props) {
     <>
       <div className='offwhite-background'>
         <div className='alexis-blog-north-container'>
-          <h1>LET'S TALK ABOUT ALEXIS LOPEZ ELECTIC STYLE</h1>
+          <h1>Queen of Underground Fashion: Alexis Lopez Reigns Supreme with Hex By Lex</h1>
         </div>
       </div>
     </>
