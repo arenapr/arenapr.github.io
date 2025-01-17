@@ -47,7 +47,7 @@ function Footer() {
                     <Link to='/contact-us'>CONTACT US</Link>
                     <Link to='/privacy-policy'>PRIVACY POLICY</Link>
                 </div>
-                <p>All Rights Reserved © 2024</p>
+                <p>All Rights Reserved © 2025</p>
             </div>
         </div>
     </div>
