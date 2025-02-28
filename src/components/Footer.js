@@ -29,7 +29,7 @@ function Footer() {
   return (
     <div className='footer-container'>
       <p className='footer-subscription-text'>
-            Follow us on Instagram for more exclusive content.
+            Follow us on social media for more exclusive content.
       </p>
       <section className='footer-subscription'>
         <div className='footer-link-items'>
