@@ -8,7 +8,7 @@
 
 .footer-subscription {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     padding: 24px;
@@ -25,8 +25,11 @@
 }
 
 .footer-subscription-text {
-    font-size: 20px;
-    margin-bottom: 24px;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 24px;
+    color: #fff;
 }
 
 .input-areas {

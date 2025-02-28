@@ -28,16 +28,24 @@ function Footer() {
 
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-text'>
+      <p className='footer-subscription-text'>
             Follow us on Instagram for more exclusive content.
-        </p>
+      </p>
+      <section className='footer-subscription'>
         <div className='footer-link-items'>
           <Link to='https://www.instagram.com/arena__pr/' target="_blank">
             <img src='/images/IG-arena_White copy.png' width={40} height={40} alt='IG Logo' /><br/>
           </Link>
           <Link to='https://www.instagram.com/arena__pr/' target="_blank">
             @arena__pr
+          </Link>
+        </div>
+        <div className='footer-link-items'>
+          <Link to='https://www.youtube.com/@arena-pr/videos' target="_blank">
+            <img src='/images/Arena_Youtube_White copy.png' width={50} height={40} alt='IG Logo' /><br/>
+          </Link>
+          <Link to='https://www.youtube.com/@arena-pr/videos' target="_blank">
+            @arena-pr
           </Link>
         </div>
       </section>
