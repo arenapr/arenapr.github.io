@@ -1,0 +1,156 @@
+.nath-blog-middle-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.nath-blog-middle-container h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    letter-spacing: -0.2vw;
+}
+
+.nath-blog-middle-container p {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 12px;
+    text-align: left;
+    margin-left: 2vw;
+    margin-right: 0;
+}
+
+.nath-blog-middle-container i {
+    font-weight: normal;
+    font-size: smaller;
+}
+
+.nath-blog-middle-container i2 {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.nath-images-container {
+    text-align: center;
+}
+
+.nath-images-wide-container {
+    text-align: center;
+}
+
+.nath-images-two-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.nath-images-container > img {
+    width: 600px;
+    height: 800px;
+    margin: 0 auto 0.5vw auto;
+    display: block;
+}
+
+.nath-images-two-container > img {
+    width: 400px;
+    height: 533.33px;
+    margin: 0 auto 0.5vw auto;
+    display: block;
+}
+
+.nath-images-wide-container > img {
+    width: 740px;
+    height: 493px;
+    margin: 0 auto 0.5vw auto;
+    display: block; 
+}
+
+.image-caption {
+    font-size: 3.5vw;
+    max-width: 600px;
+    color: #666;
+    font-style: italic;
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.nath-body-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(10, auto);
+}
+
+.nath-body-container p {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 12px;
+    text-align: left;
+}
+
+.nath-body-container b {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 14px;
+    text-align: left;
+}
+
+b, strong {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.nath-left-column {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 10;
+    margin-right: 2vw;
+}
+
+.nath-right-column {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 10;
+    margin: 2vw;
+    margin-left: 4vw;
+}
+
+@media screen and (max-width: 960px) {
+    .nath-blog-middle-container {
+        padding: 5vw;
+        width: auto;
+    }
+
+    .nath-blog-middle-container h1 {
+        font-size: 3vw;
+        margin-top: 12px;
+        margin-bottom: 5vw;
+    }
+
+    .nath-images-container > img {
+        width: 60vw;
+        height: 80vw;
+        margin-bottom: 10px;
+    }
+
+    .nath-images-wide-container > img {
+        width: 74vw;
+        height: 49.3vw;
+        margin: 0 auto 10px auto;
+        display: block; 
+    }
+
+    .nath-images-two-container > img {
+        width: 40vw;
+        height: 53.3vw;
+        margin: 0 auto 0.5vw auto;
+        display: block;
+    }
+    
+    .nath-body-container b {
+        font-size: 6vw;
+    }
+}

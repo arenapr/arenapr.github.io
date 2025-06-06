@@ -11,6 +11,11 @@ function BlogMiddle() {
           <div className='cards__wrapper'>
               <ul className='cards__items'>
                   <CardItem 
+                    src='images/nath-500x500.png'
+                    text='CLASSICALLY EXTRAVAGANT: INSIDE HYPNOSIS BY NATH DE LA MORA'
+                    path='./nath-mora-blog'
+                  />
+                  <CardItem 
                     src='images/Meaningless_1080x1080.png'
                     text="MAKING CONNECTIONS: NICKO SENA'S MEANINGLESS CONNECTION"
                     path='./nicko-sena-blog'
@@ -20,13 +25,13 @@ function BlogMiddle() {
                     text='JANACE GRIFFIN IS FOLLOWING HER DREAMS'
                     path='./janace-griffin-blog'
                   />
+              </ul>
+              <ul className='cards__items'>
                   <CardItem 
                     src='images/6par6noid6.jpeg'
                     text='SERGIO ESTRADA AND THE PURSUIT OF EXCELLENCE'
                     path='./sergio-estrada-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                   <CardItem 
                     src='images/hex_by_lex.jpg'
                     text="LET'S TALK ABOUT ALEXIS LOPEZ ECLECTIC STYLE"

@@ -29,11 +29,11 @@ h1 {
 
 .cards__item__link {
   width: 250px;
-  height: 380px;
+  height: 400px;
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   overflow: hidden;
 }
