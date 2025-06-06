@@ -7,6 +7,13 @@
     padding: 2vw;
 }
 
+.nath-blog-north-inner {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+
 .nath-blog-north-container h1 {
     color: #000;
     font-size: 4vw;

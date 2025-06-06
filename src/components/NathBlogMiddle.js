@@ -10,8 +10,8 @@ function NathBlogMiddle(props) {
           <p>Updated on 6.5.2025 by Fernanda Ortiz</p><br/><br/>
           <div className='nath-images-container'>
               <img src='../images/nath.jpeg' alt='Hypnosis Image'></img>
-              <p class="image-caption">Fashion designer Nath de La Mora wears one of his designs. <br/>
-                A bold, patterned blue outfit. He styles it with chain accessories and unique sunglasses</p>
+              <p2 class="image-caption">Fashion designer Nath de La Mora wears one of his designs. <br/>
+                A bold, patterned blue outfit. He styles it with chain accessories and unique sunglasses</p2>
           </div>
           <h1>At just 24 years old, Nath de La Mora has already carved a name for himself in the fashion 
               world—but his journey started humbly, at a sewing machine in his grandmother’s living room.
