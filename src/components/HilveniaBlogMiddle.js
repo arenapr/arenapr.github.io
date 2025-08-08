@@ -11,7 +11,7 @@ function HilveniaBlogMiddle(props) {
           <p>Photos and Styling by Elier Gael <a href="https://instagram.com/imerito_kaz" style={{ fontSize: '8px' }}>@imerito_kaz</a></p><br/><br/>
           <div className='hilvenia-images-container'>
               <img src='../images/hilvenia-top.png' alt='Hilvenia Image'></img>
-              <p2 class="image-caption">From left to right: Franko Gonzalez, Celeste de León, Danie Ramos and Itzél Galván</p2>
+              <p2 class="image-caption">From left to right: Franko Gonzalez, Celeste de León, Daniel Ramos and Itzél Galván</p2>
           </div>
           <br/>
           <div className='hilvenia-body-container'>
