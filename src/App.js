@@ -13,6 +13,7 @@ import JanaceGriffinBlog from './components/pages/Blogs/JanaceGriffinBlog';
 import NickoSenaBlog from './components/pages/Blogs/NickoSenaBlog';
 import NathMoraBlog from './components/pages/Blogs/NathMoraBlog';
 import HilveniaBlog from './components/pages/Blogs/HilveniaBlog';
+import JackieHeraldBlog from './components/pages/Blogs/JackieHeraldBlog';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='blog/nicko-sena-blog' Component={NickoSenaBlog} />
         <Route path='blog/nath-mora-blog' Component={NathMoraBlog} />
         <Route path='blog/hilvenia-blog' Component={HilveniaBlog} />
+        <Route path='blog/jackie-herald-blog' Component={JackieHeraldBlog} />
       </Routes>
     </Router>
     </>
