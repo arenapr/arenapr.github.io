@@ -1,7 +1,7 @@
 @font-face { 
   font-family: 'MyFont'; 
   src: 
-      url('/public/fonts/KronaOne-Regular.ttf')  
+      url('./assets/fonts/KronaOne-Regular.ttf')  
       format('opentype'); 
       font-weight: normal; 
       font-style: normal; 
@@ -10,7 +10,7 @@
 @font-face { 
   font-family: 'JuraFont'; 
   src: 
-      url('/public/fonts/Jura/Jura-Regular.ttf')  
+      url('./assets/fonts/Jura/Jura-Regular.ttf')  
       format('opentype'); 
       font-weight: normal; 
       font-style: normal; 
@@ -19,7 +19,7 @@
 @font-face { 
   font-family: 'JuraBold'; 
   src: 
-      url('/public/fonts/Jura/Jura-Bold.ttf')  
+      url('./assets/fonts/Jura/Jura-Bold.ttf')  
       format('opentype'); 
       font-weight: normal; 
       font-style: normal; 
@@ -43,31 +43,13 @@
     font-size: 3rem;
   }
   
-  /* .blog {
-    background-image: url('/public/images/model_on_runway.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  } */
-  
-  /* .about {
-    background-image: url('/public/images/models_on_runway.jpeg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  } */
-  
   .offwhite-background {
     background-color: #f7f7f7;
     width: 100%;
   }
 
   .sign-up {
-    background-image: url('/public/images/hex_by_lex.jpg');
+    background-image: url('./assets/images/hex_by_lex.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
