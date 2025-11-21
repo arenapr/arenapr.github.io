@@ -40,7 +40,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-            <img src='/images/ARENA-03.png' width={50} height={50} alt='Arena Logo' />
+            <img src='./images/ARENA-03.png' width={50} height={50} alt='Arena Logo' />
           </Link>
           <div className='menu-icon'>
             <Hamburguer toggled={click} toggle={setClick} />
