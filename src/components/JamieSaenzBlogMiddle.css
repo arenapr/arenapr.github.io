@@ -1,0 +1,234 @@
+.jamie-saenz-blog-middle-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    padding: 2vw;
+}
+
+.jamie-saenz-blog-middle-container h1 {
+    color: #000;
+    font-size: 3vw;
+    font-weight: normal;
+    text-align: center;
+    margin: 1vw;
+    margin-top: 3vw;
+    letter-spacing: -0.2vw;
+}
+
+.jamie-saenz-blog-middle-container h2 {
+    color: #000;
+    font-size: 2vw;
+    font-weight: normal;
+    text-align: left;
+}
+
+.jamie-saenz-blog-middle-container p {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 12px;
+    text-align: left;
+}
+
+.jamie-saenz-blog-middle-container p2 {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 18px;
+    text-align: left;
+}
+
+.jamie-saenz-blog-middle-container p3 {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 24px;
+    text-align: left;
+}
+
+.jamie-saenz-images-container {
+    display: flex;
+    max-width: 100%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    gap: 50px;
+}
+
+.jamie-saenz-images-container > img {
+    /* width: 350px; */
+    height: auto;
+    display: block;
+}
+
+.jamie-saenz-images-container > .second-img {
+    width: 550px;
+    height: 500px;
+    display: block;
+}
+
+.jamie-saenz-images-container > .third-img {
+    width: 450px;
+    height: 225px;
+    display: block;
+}
+
+.jamie-saenz-images-container > .fourth-img {
+    width: 350px;
+    height: auto;
+    display: block;
+}
+
+.jamie-saenz-images-container2 .second-img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.jamie-saenz-images-container2 .third-img {
+    width: auto;
+    height: 400px;
+    display: block;
+}
+
+.jamie-saenz-images-container2 {
+    display: flex;
+    /* max-width: 100%; */
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    gap: 25px;
+}
+
+.jamie-saenz-images-container2 > img {
+    /* width: 200px; */
+    height: auto;
+    display: block;
+}
+
+b {
+    font-family: 'JuraBold';
+    font-weight: bold;
+    font-size: smaller; 
+}
+
+.jamie-saenz-body-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(10, auto);
+}
+
+.jamie-saenz-body-container p {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 2vw;
+    text-align: left;
+    line-height: 2.5vw;
+}
+
+.jamie-saenz-body-container b {
+    color: #000;
+    font-family: 'JuraBold';
+    font-size: 3vw;
+    text-align: left;
+    line-height: 2.5vw;
+}
+
+.jamie-saenz-body-container b span {
+    box-shadow: inset 0px -2.3vw 0px 0px rgb(218, 123, 255);
+}
+
+.jamie-saenz-left-column {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 10;
+    margin-top: 2vw;
+    margin-right: 4vw;
+}
+
+.jamie-saenz-right-column {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 10;
+    margin-top: 2vw;
+    margin-right: 2vw;
+    margin-left: 4vw;
+}
+
+@media screen and (max-width: 960px) {
+    .jamie-saenz-blog-middle-container {
+        padding: 5vw;
+        width: auto;
+    }
+
+    .jamie-saenz-images-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jamie-saenz-images-container > img {
+        width: 80vw;
+        height: auto;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-bottom: 10px;
+    }
+
+    .jamie-saenz-images-container > .second-img {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .jamie-saenz-images-container > .third-img {
+        width: 85vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .jamie-saenz-images-container > .fourth-img {
+        width: 80vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .jamie-saenz-images-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .jamie-saenz-images-container2 > img {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .jamie-saenz-images-container2 .second-img {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .jamie-saenz-images-container2 .third-img {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .jamie-saenz-blog-middle-container h2 {
+        font-size: 4vw; /* smaller than desktop 2vw? adjust as needed */
+        text-align: left; /* keeps alignment consistent */
+    }
+
+    .jamie-saenz-blog-middle-container p2 {
+        color: #000;
+        font-family: 'JuraBold';
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .jamie-saenz-blog-middle-container p3 {
+        color: #000;
+        font-family: 'JuraBold';
+        font-size: 18px;
+        text-align: left;
+    }
+}
