@@ -27,64 +27,47 @@ function Navbar() {
 
   const navigate = useNavigate();
 
-  const scrollToHomeAbout = () => {
-    navigate('/', { state: { scrollPosition: '#home-about' } })
-  };
-
-  const scrollToHomeContactUs= () => {
-    navigate('/', { state: { scrollPosition: '#home-contact-us' } })
-  };
-
   return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-            <img src='./images/ARENA-03.png' width={50} height={50} alt='Arena Logo' />
-          </Link>
-          <div className='menu-icon'>
-            <Hamburguer toggled={click} toggle={setClick} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links home-link' onClick={closeMobileMenu}>
-                HOME
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links about-link'
-                onClick={(e) => {
-                  e.preventDefault();
-                  closeMobileMenu();
-                  scrollToHomeAbout();
-                }}
-              >
-                ABOUT
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='/blog' className='nav-links blog-link' onClick={closeMobileMenu}>
-                BLOG
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link 
-              to='/'
-                className='nav-links-mobile'
-                onClick={(e) => {
-                  e.preventDefault();
-                  closeMobileMenu();
-                  scrollToHomeContactUs();
-                }}
-              >
-                CONTACT US
-              </Link>
-            </li>
-          </ul>
-          {button && <Button type='contact-us' buttonStyle='btn--primary'>CONTACT US</Button>}
+        <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
+          ARENA
+        </Link>
+        <div className='menu-icon'>
+          <Hamburguer toggled={click} toggle={setClick} />
         </div>
+        <ul className={click ? 'nav-links active' : 'nav-links'}>
+          <li>
+            <Link to='/' className='links-prop' onClick={closeMobileMenu}>
+              HOME
+            </Link>
+          </li>
+          <li>
+            <Link to='/about' className='links-prop' onClick={closeMobileMenu}>
+              ABOUT
+            </Link>
+          </li>
+          <li>
+            <Link to='/work-with-us' className='links-prop' onClick={closeMobileMenu}>
+              WORK WITH US
+            </Link>
+          </li>
+          <li>
+            <Link to='/blog' className='links-prop' onClick={closeMobileMenu}>
+              BLOG
+            </Link>
+          </li>
+          <li>
+            <Link to='/testimonials' className='links-prop' onClick={closeMobileMenu}>
+              TESTIMONIALS
+            </Link>
+          </li>
+          <li>
+            <Link to='/contact-us' className='links-prop' onClick={closeMobileMenu}>
+              CONTACT
+            </Link>
+          </li>
+        </ul>
       </nav>
     </>
   );

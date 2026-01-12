@@ -1,25 +1,16 @@
 @font-face { 
   font-family: 'MyFont'; 
   src: 
-      url('./assets/fonts/KronaOne-Regular.ttf')  
+      url('./assets/fonts/impact.ttf')  
       format('opentype'); 
       font-weight: normal; 
       font-style: normal; 
 }
 
 @font-face { 
-  font-family: 'JuraFont'; 
+  font-family: 'ModeratFont'; 
   src: 
-      url('./assets/fonts/Jura/Jura-Regular.ttf')  
-      format('opentype'); 
-      font-weight: normal; 
-      font-style: normal; 
-}
-
-@font-face { 
-  font-family: 'JuraBold'; 
-  src: 
-      url('./assets/fonts/Jura/Jura-Bold.ttf')  
+      url('./assets/fonts/Moderat-Regular.ttf')  
       format('opentype'); 
       font-weight: normal; 
       font-style: normal; 
@@ -44,7 +35,7 @@
   }
   
   .offwhite-background {
-    background-color: #f7f7f7;
+    background: #EAE7DF;
     width: 100%;
   }
 
