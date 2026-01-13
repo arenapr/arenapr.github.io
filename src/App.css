@@ -4,7 +4,7 @@
       url('./assets/fonts/impact.ttf')  
       format('opentype'); 
       font-weight: normal; 
-      font-style: normal; 
+      font-style: normal;
 }
 
 @font-face { 
@@ -23,27 +23,7 @@
     font-family: 'MyFont';
   }
   
-  .home,
-  .blog,
-  .about,
-  .sign-up {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  
   .offwhite-background {
     background: #EAE7DF;
     width: 100%;
-  }
-
-  .sign-up {
-    background-image: url('./assets/images/hex_by_lex.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
   }
