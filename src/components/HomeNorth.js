@@ -1,5 +1,6 @@
 import '../App.css'
 import './HomeNorth.css'
+import { Link, useNavigate } from 'react-router-dom';
 
 function HomeNorth() {
   return (
@@ -40,6 +41,9 @@ function HomeNorth() {
            We’re here to spotlight what others overlook.
         </p>
         <p>Join the movement, share the vision and be a part of the future of fashion.</p>
+        <Link to="/about" className="button">
+          MORE ABOUT US
+        </Link>
       </div>
     </div>
   )
