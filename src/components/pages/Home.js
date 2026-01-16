@@ -37,9 +37,6 @@ function Home() {
     return (
         <>
           <HomeNorth />
-          <HomeMiddle />
-          <HomeMiddle2 />
-          <HomeSouth />
           <Footer />
         </>
     );
