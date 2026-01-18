@@ -1,9 +1,6 @@
-import React, {useEffect} from 'react'
+import {useEffect} from 'react'
 import '../../App.css'
-import HomeNorth from '../HomeNorth'
-import HomeMiddle from '../HomeMiddle';
-import HomeMiddle2 from '../HomeMiddle2';
-import HomeSouth from '../HomeSouth';
+import HomeComponents from '../HomeComponents'
 import Footer from '../Footer';
 import { useLocation } from 'react-router-dom';
 
@@ -36,7 +33,7 @@ function Home() {
     
     return (
         <>
-          <HomeNorth />
+          <HomeComponents />
           <Footer />
         </>
     );

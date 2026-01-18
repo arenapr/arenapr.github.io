@@ -1,185 +1,59 @@
 .footer-container {
-    background-color: #000;
+    background-color: #CA3631;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 10vh;
+    padding-inline: 2vw;
+}
+
+.footer-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: #EAE7DF;
+    text-align: left;
 }
 
-.footer-subscription {
+.footer-left h1 {
+    font-size: 10rem;
+    line-height: 0.9;
+}
+
+.footer-right {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    padding: 24px;
-    color: #fff;
-}
-
-.footer-subscription > p {
-    font-size: 12px;
-}
-
-.footer-subscription-heading {
-    font-size: 24px;
-    font-weight: normal;
-}
-
-.footer-subscription-text {
-    justify-content: center;
-    text-align: center;
-    font-size: 12px;
-    margin-top: 24px;
-    color: #fff;
-}
-
-.input-areas {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 24px;
-    /* padding-right: 10vw; */
-}
-
-.input-areas input {
-    height: 35px;
-    width: 250px;
-    margin-right: 10px;
-    outline: none;
-    border: none;
-    border-radius: 2px;
-}
-
-.input-areas button {
-    background-color: #ca3631;
-    color: #fff;
-    border: 1px solid #ca3631;
-    height: 35px;
-    width: 150px;
-    font-size: 12px;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
-
-.input-areas button:hover {
-    background: #fff;
-    color: #000;
-    transition: all 0.3s ease-out;
+    flex-direction: column;
+    color: #EAE7DF;
+    text-align: right;
 }
 
 .footer-links {
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
+    color: #F7F7F7;
+    font-family: 'ModeratFont';
+    text-decoration: underline;
 }
 
-.footer-link-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
+.footer-links:hover {
+    border-bottom: 4px solid #f7f7f7;
+    transition: all 0.2s ease-out;
 }
 
-.footer-link-wrapper p {
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-
-.footer-link-items {
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.footer-link-items h2 {
-    margin-bottom: 16px;
-}
-
-.footer-link-items > h2 {
-    color: #fff;
-}
-
-.footer-link-items a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-.footer-link-items a:hover {
-    color: #ca3631;
-    transition: 0.3s ease-out;
-}
-
-.footer-email-form h2 {
-    margin-bottom: 32px;
-}
-
-.footer-input::placeholder {
-    color: #b1b1b1;
-}
-
-/* Social Icons */
-.social-icon-link {
-    color: #fff;
-    font-size: 24px;
-}
-
-.social-media {
-    max-width: 1000px;
-    width: 100%;
-}
-
-.social-media-wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1000px;
-    margin: 40px auto 0 auto;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 240px;
-}
-
-.social-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-self: center;
-    margin-bottom: 16px;
-}
-
-.website-rights {
-    color: #fff;
-    margin-bottom: 16px;
-}
-
-@media screen and (max-width: 550px) {
-    .input-areas input {
-        height: calc(35px - (35px * .20));
-        width: calc(250px - (250px * .20));
-    }
-    
-    .input-areas button {
-        height: calc(35px - (35px * .20));
-        width: calc(150px - (150px * .20));
-        font-size: 10px;
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px; 
+        padding: 40px 20px;
     }
 
-    .footer-link-items a {
-        margin-right: 20px;
-        margin-left: 20px;
-        font-size: 12px;
+    .footer-left, 
+    .footer-right {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-left h1 {
+        font-size: 8rem;
     }
 }

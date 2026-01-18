@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Hamburguer from 'hamburger-react';
 import './Navbar.css';
-import { Button } from './Button';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,8 +23,6 @@ function Navbar() {
   }, []);
 
   window.addEventListener('resize', showButton);
-
-  const navigate = useNavigate();
 
   return (
     <>

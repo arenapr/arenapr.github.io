@@ -35,6 +35,7 @@
   text-align: center;
   margin-top: auto;
   margin-bottom: 0px;
+  line-height: 1.0;
 }
 
 .text-left {
@@ -217,6 +218,86 @@
   margin-top: 10px;
 }
 
+.full-width-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh;
+  width: 100%;
+  border-bottom: 2px solid #CA3631;
+}
+
+.testimonials-container h1 {
+  color: #CA3631;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel-content {
+  overflow: hidden; /* This hides the slides that aren't active */
+  width: 70%;
+  background: #EAE7DF;
+  border-radius: 8px;
+}
+
+.slide-track {
+  display: flex;
+  transition: transform 0.4s ease-out; /* Smooth sliding effect */
+}
+
+.slide {
+  min-width: 100%;
+  padding-block: 5vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  text-align: center;
+}
+
+.slide p {
+  color: #CA3631;
+  font-size: 1.5rem;
+  font-family: "ModeratFont";
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #CA3631;
+  z-index: 10;
+}
+
+.arrow.left {
+  position: absolute;
+  left: -60px;
+}
+
+.arrow.right {
+  position: absolute;
+  right: -60px;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -305,6 +386,18 @@
 
   .blog-text p {
     font-size: 0.8rem;
+  }
+
+  .testimonials-container h1 {
+    font-size: 2rem;
+  }
+  
+  .carousel-content {
+    width: 100%;
+  }
+
+  .slide p {
+    font-size: 1rem;
   }
 }
 

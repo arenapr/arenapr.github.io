@@ -1,7 +1,5 @@
-import React from 'react'
 import '../../App.css'
 import ContactUsNorth from '../ContactUsNorth';
-import HomeSouth from '../HomeSouth';
 import Footer from '../Footer';
 
 function ContactUs() {
@@ -9,7 +7,6 @@ function ContactUs() {
     return (
         <>
           <ContactUsNorth />
-          <HomeSouth />
           <Footer />
         </>
     );
