@@ -11,6 +11,11 @@ function BlogMiddle() {
           <div className='cards__wrapper'>
               <ul className='cards__items'>
                   <CardItem 
+                    src='/images/andyc-800x800.jpg'
+                    text='SLOWING DOWN, STITCH BY STITCH WITH ANDY CASTANEDA'
+                    path='./andy-castaneda-blog'
+                  />
+                  <CardItem 
                     src='/images/0-jamie-saenz-400x400.png'
                     text='JAMIE SAENZ: DESIGNING WITH PASSION, PURPOSE, AND HEART'
                     path='./jamie-saenz-blog'
@@ -20,13 +25,13 @@ function BlogMiddle() {
                     text='MEET ALICIA FLORES: THE DREAMER BEHIND ENEDINA ROSE'
                     path='./alicia-flores-blog'
                   />
+              </ul>
+              <ul className='cards__items'>
                   <CardItem 
                     src='/images/IMG_CAB578B9F867-1.jpeg'
                     text='JACKIE HERALD: REDEFINING FASHION AS ART ON THE BORDER'
                     path='./jackie-herald-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                   <CardItem 
                     src='images/DSC_0234-square.png'
                     text='HILVENIA COLLECTIVE: STYLE, IDENTITY, AND DREAMS'
@@ -37,13 +42,13 @@ function BlogMiddle() {
                     text='CLASSICALLY EXTRAVAGANT: INSIDE HYPNOSIS BY NATH DE LA MORA'
                     path='./nath-mora-blog'
                   />
+              </ul>
+              <ul className='cards__items'>
                   <CardItem 
                     src='images/Meaningless_1080x1080.png'
                     text="MAKING CONNECTIONS: NICKO SENA'S MEANINGLESS CONNECTION"
                     path='./nicko-sena-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                   <CardItem 
                     src='images/Janace.png'
                     text='JANACE GRIFFIN IS FOLLOWING HER DREAMS'
@@ -54,11 +59,13 @@ function BlogMiddle() {
                     text='SERGIO ESTRADA AND THE PURSUIT OF EXCELLENCE'
                     path='./sergio-estrada-blog'
                   />
-                  <CardItem 
-                    src='images/hex_by_lex.jpg'
-                    text="LET'S TALK ABOUT ALEXIS LOPEZ ECLECTIC STYLE"
-                    path='./alexis-lopez-blog'
-                  />
+              </ul>
+              <ul className='cards__items'>
+                <CardItem 
+                  src='images/hex_by_lex.jpg'
+                  text="LET'S TALK ABOUT ALEXIS LOPEZ ECLECTIC STYLE"
+                  path='./alexis-lopez-blog'
+                />
               </ul>
           </div>
         </div>

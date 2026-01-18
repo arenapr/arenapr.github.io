@@ -16,6 +16,7 @@ import HilveniaBlog from './components/pages/Blogs/HilveniaBlog';
 import JackieHeraldBlog from './components/pages/Blogs/JackieHeraldBlog';
 import AliciaFloresBlog from './components/pages/Blogs/AliciaFloresBlog';
 import JamieSaenzBlog from './components/pages/Blogs/JamieSaenzBlog';
+import AndyCastanedaBlog from './components/pages/Blogs/AndyCastanedaBlog';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path='blog/jackie-herald-blog' Component={JackieHeraldBlog} />
         <Route path='blog/alicia-flores-blog' Component={AliciaFloresBlog} />
         <Route path='blog/jamie-saenz-blog' Component={JamieSaenzBlog} />
+        <Route path='blog/andy-castaneda-blog' Component={AndyCastanedaBlog} />
       </Routes>
     </Router>
     </>
