@@ -1,0 +1,35 @@
+.text-left {
+  color: #CA3631;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.text-left h1 {
+  font-size: 3rem;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text-left p {
+  font-size: 20px;
+  font-family: 'ModeratFont';
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (max-width: 768px) {
+  .text-left {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .text-left h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-left p {
+    font-size: 14px;
+  }
+}

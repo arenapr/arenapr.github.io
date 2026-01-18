@@ -1,0 +1,22 @@
+.rounded-corners-button {
+  padding: 12px 24px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: fit-content;
+  font-family: 'ModeratFont';
+  color: var(--btn-borderColor, #EAE7DF);
+  border: none;
+  cursor: pointer;
+  border: 2px solid var(--btn-borderColor, #CA3631);
+  border-radius: 9999px;
+  text-decoration: none;
+}
+
+.rounded-corners-button:hover {
+  border-color: #000;
+  color: #000;
+}
+
+.rounded-corners-button:active {
+  transform: scale(0.95);
+}

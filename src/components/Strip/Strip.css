@@ -1,0 +1,30 @@
+.strip-container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.ticker {
+  display: inline-flex;
+  white-space: nowrap;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+  gap: 0.5rem;
+}
+
+.ticker span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #CA3631;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
