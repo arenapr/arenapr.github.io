@@ -3,6 +3,7 @@ import Hero from '../Hero/Hero';
 import Strip from '../Strip/Strip';
 import CenteredText from '../Banners/CenteredText';
 import CTA from '../Banners/CTA';
+import FullWidthImage from '../Images/FullWidthImage';
 import Footer from '../Footer';
 
 function About() {
@@ -36,6 +37,40 @@ function About() {
                 />
                 <CenteredText
                     title={["\“BRIDGING CITIES.", <br/>, "ELEVATING CREATORS.\”"]}
+                />
+                <CTA
+                    borderColor="#CA3631"
+                    borderWidth="2px"
+                    title="MEET THE FOUNDER"
+                    text="ARENA was born out of a deep love for fashion, art, and the creative voices often
+                          overlooked in border towns. After years of working in creative industries, founder
+                          Fernanda Ortiz recognized a gap in visibility and support for emerging designers in El Paso
+                          and Ciudad Juárez."
+                    text2="Inspired by the cultural richness and resilience of the borderland, she created
+                           ARENA not just as a platform, but as a movement — one that amplifies local talent
+                           and redefines the narrative of fashion coming from these communities."
+                    imageSrc="../images/FER.jpg"
+                    imageAlt="FounderImg"
+                    imageRight={false}
+                    showButton={false}
+                />
+                <CenteredText
+                    title="WHERE THE NEXT GENERATION OF FASHION TAKES THE STAGE"
+                    font="ModeratFont"
+                    fontSize="2rem"
+                />
+                <FullWidthImage
+                    imageSrc="/images/fabric.jpeg"
+                    imageAlt="fabric"
+                />
+                <CenteredText
+                    title={["THE FUTURE OF FASHION", <br/>, "LIVES HERE"]}
+                    showButton={true}
+                    borderColor="#CA3631"
+                    borderWidth="2px"
+                />
+                <Strip
+                    text="FASHION. CULTURE. COMMUNITY. "
                 />
                 <Footer />
             </div>

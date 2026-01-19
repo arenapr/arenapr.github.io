@@ -3,12 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6vh;
+    padding-block: 6vh;
+    border-bottom: 2px solid #CA3631;
 }
 
 .centered-text-container h1 {
     font-size: 4rem;
     color: #CA3631;
+    margin-block: 3vh;
 }
 
 @media (max-width: 768px) {

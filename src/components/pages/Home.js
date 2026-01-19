@@ -58,6 +58,8 @@ function Home() {
             />
             <WhoWeAre/>
             <CTA
+              borderColor="#CA3631"
+              borderWidth="2px"
               title={["SUPPORTING DESIGNERS.", <br/>, "CELEBRATING COMMUNITY."]}
               text={["We are in constant search for emerging local talent in the borderland.", <br/>,
                      "Are you a local fashion designer that wants to showcase your work?"]}

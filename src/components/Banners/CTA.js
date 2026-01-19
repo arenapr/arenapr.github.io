@@ -1,10 +1,15 @@
 import './CTA.css';
 import RoundedCornersButton from '../Buttons/RoundedCornersButton'; '../Buttons/RoundedCornersButton';
 
-function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize, borderColor = "#EAE7DF", borderWidth = "0"}) {
+function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize, 
+              borderColor = "#EAE7DF", borderWidth = "0", showButton = true,
+              imageRight = true}) {
+  
+  const orientationClass = imageRight ? 'image-right' : 'image-left';
+  
   return (
     <div 
-      className="hero-container" 
+      className={`cta-container ${orientationClass}`}
       style={{
         borderTop: `${borderWidth} solid ${borderColor}`,
         borderBottom: `${borderWidth} solid ${borderColor}`
@@ -13,12 +18,14 @@ function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize, bord
         <h1 style={{fontFamily: titleFont, fontSize: titleSize}}>{title}</h1>
         <p>{text}</p>
         <p>{text2}</p>
-        <RoundedCornersButton
-          to="/about"
-          text="LEARN MORE"
-          color="#CA3631"
-          borderColor="#EAE7DF"
-        />
+        {showButton && (
+          <RoundedCornersButton
+            to="/about"
+            text="LEARN MORE"
+            color="#CA3631"
+            borderColor="#EAE7DF"
+          />
+        )}
       </div>
       <div className="image">
         <img
