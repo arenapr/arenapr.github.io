@@ -1,0 +1,18 @@
+.centered-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh;
+}
+
+.centered-text-container h1 {
+    font-size: 4rem;
+    color: #CA3631;
+}
+
+@media (max-width: 768px) {
+    .centered-text-container h1 {
+        font-size: 2rem;
+    }
+}

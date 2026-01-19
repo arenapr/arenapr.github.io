@@ -1,13 +1,18 @@
 import './CTA.css';
 import RoundedCornersButton from '../Buttons/RoundedCornersButton'; '../Buttons/RoundedCornersButton';
 
-function CTA(props) {
+function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize, borderColor = "#EAE7DF", borderWidth = "0"}) {
   return (
-    <div className="hero-container">
+    <div 
+      className="hero-container" 
+      style={{
+        borderTop: `${borderWidth} solid ${borderColor}`,
+        borderBottom: `${borderWidth} solid ${borderColor}`
+      }}>
       <div className="text-left">
-        <h1>{props.title}</h1>
-        <p>{props.text}</p>
-        <p>{props.text2}</p>
+        <h1 style={{fontFamily: titleFont, fontSize: titleSize}}>{title}</h1>
+        <p>{text}</p>
+        <p>{text2}</p>
         <RoundedCornersButton
           to="/about"
           text="LEARN MORE"
@@ -17,8 +22,8 @@ function CTA(props) {
       </div>
       <div className="image">
         <img
-          src={props.imageSrc}
-          alt={props.imageAlt}
+          src={imageSrc}
+          alt={imageAlt}
         />
       </div>
     </div>
