@@ -39,7 +39,7 @@
 }
 
 @media (max-width: 768px) {
-  .image-text-container {
+  .hero-container {
     flex-direction: column;
   }
 

@@ -1,34 +1,4 @@
-.white-button {
-  padding: 12px 24px;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: fit-content;
-  font-family: 'ModeratFont';
-  background-color: #EAE7DF;
-  color: #CA3631;
-  border: none;
-  cursor: pointer;
-  border: 2px solid #CA3631;
-  border-radius: 9999px;
-  text-decoration: none;
-}
-
-.white-button:hover {
-  border-color: #000;
-  color: #000;
-}
-
-.white-button:active {
-  transform: scale(0.95);
-}
-
-.full-width-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.testimonials-container {
+.slider-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +8,7 @@
   border-bottom: 2px solid #CA3631;
 }
 
-.testimonials-container h1 {
+.slider-container h1 {
   color: #CA3631;
   font-size: 3rem;
   width: 100%;
@@ -102,12 +72,11 @@
   right: -60px;
 }
 
-
 @media (max-width: 768px) {
-  .testimonials-container h1 {
+  .slider-container h1 {
     font-size: 2rem;
   }
-  
+
   .carousel-content {
     width: 100%;
   }

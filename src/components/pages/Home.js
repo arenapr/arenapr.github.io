@@ -5,6 +5,8 @@ import Strip from '../Strip/Strip';
 import WhoWeAre from '../Banners/WhoWeAre';
 import CTA from '../Banners/CTA';
 import BlogContainer from '../Blog/BlogContainer';
+import FullWidthImage from '../Images/FullWidthImage';
+import Slider from '../Sliders/Slider';
 import Footer from '../Footer';
 import { useLocation } from 'react-router-dom';
 
@@ -34,6 +36,14 @@ function Home() {
         window.scrollTo(0, 0);
       }
     }, [location.state]);
+
+    const slides = [
+        "\“Agradezco la oportunidad de coincidir con ARENA, un espacio que continúa reafirmando su \
+        compromiso con la moda y su labor por abrir y sostener nuevos contextos dentro de la ciudad \
+        para fomentar el diálogo creativo, y la diversidad de identidades que dan forma a nuestra escena.\” \
+        - Jackie Herald",
+        "\"ARENA is the best!!!\" - Alfredo Rodriguez"
+    ];
     
     return (
         <>
@@ -79,6 +89,17 @@ function Home() {
                         chances are you’ve heard the name Hilvenia Collective. If you haven’t, don’t
                         worry. You’re about to fall in love."
               blogTo3="/blog/jackie-herald-blog"
+            />
+            <FullWidthImage
+              imageSrc="/images/fabric.jpeg"
+              imageAlt="fabric"
+            />
+            <Slider
+              title={["REAL WORDS FROM", <br/>, "REAL CREATIVES"]}
+              slides={slides}
+            />
+            <Strip
+              text="FASHION. CULTURE. COMMUNITY. "
             />
           </div>
           <Footer />
