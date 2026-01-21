@@ -20,6 +20,7 @@ function About() {
                     text="FASHION. CULTURE. COMMUNITY. "
                     textColor="#EAE7DF"
                     backgroundColor="#CA3631"
+                    reverse={true}
                 />
                 <CenteredText
                     title={["THE BORDER IS NOT A LIMIT.", <br/>, "IT'S A LAUNCH PAD"]}

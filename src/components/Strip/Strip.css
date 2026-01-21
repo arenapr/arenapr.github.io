@@ -10,7 +10,7 @@
   display: inline-flex;
   white-space: nowrap;
   width: max-content;
-  animation: scroll 30s linear infinite;
+  animation: scroll 30s linear infinite var(--direction, normal);
   gap: 0.5rem;
 }
 

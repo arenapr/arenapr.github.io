@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding-block: 6vh;
     border-bottom: 2px solid #CA3631;
 }

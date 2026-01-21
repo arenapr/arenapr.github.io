@@ -72,18 +72,6 @@ function Blog() {
             imageAlt="NickoSenaImage"
           />
           <BlogStrip
-            date="09 / 09 / 2024"
-            title="JANACE GRIFFIN IS FOLLOWING HER DREAMS"
-            text="Janace Griffin—better known as Junkdredz—is a creative force who’s done it all and still manages 
-                  to keep us guessing about what she’ll tackle next. A published children’s book author, founder 
-                  of The El Paso Black Arts Association, and all-around artistic powerhouse, Janace doesn’t just 
-                  stop there. She’s also out here chasing her dream of being a fashion designer—and absolutely 
-                  crushing it."
-            blogLink="/blog/janace-griffin-blog"
-            imageSrc="/images/Janace.png"
-            imageAlt="JanaceGriffinImage"
-          />
-          <BlogStrip
             date="08 / 16 / 2024"
             title="SERGIO ESTRADA AND THE PURSUIT OF EXCELLENCE"
             text="When you think of fashion, you might picture glamorous runways, polished collections, and glossy
@@ -92,23 +80,12 @@ function Blog() {
             imageSrc="/images/6par6noid6.jpeg"
             imageAlt="SergioEstradaImage"
           />
-          <BlogStrip
-            date="10 / 24 / 2024"
-            title="LET'S TALK ABOUT ALEXIS LOPEZ ECLECTIC STYLE"
-            text="When it comes to fashion, Alexis Lopez doesn’t just play by the rules—she rewrites them. 
-                  Known for her bold style and fearless approach, Alexis burst onto the scene in July 2023 
-                  with the launch of her brand, Hex by Lex, and her debut collection. From day one, she’s been 
-                  turning heads and proving that art and fashion don’t just mix—they collide beautifully in her 
-                  daring, yet wearable designs."
-            blogLink="/blog/alexis-lopez-blog"
-            imageSrc="/images/hex_by_lex.jpg"
-            imageAlt="AlexisLopezImage"
-          />
           <br/>
           <Strip
               text="FASHION. CULTURE. COMMUNITY. "
               textColor="#EAE7DF"
               backgroundColor="#CA3631"
+              reverse={true}
           />
           <Strip
               text="FASHION. CULTURE. COMMUNITY. "

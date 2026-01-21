@@ -4,7 +4,7 @@ import Hero from '../Hero/Hero';
 import Strip from '../Strip/Strip';
 import WhoWeAre from '../Banners/WhoWeAre';
 import CTA from '../Banners/CTA';
-import BlogContainer from '../Blog/BlogContainer';
+import BlogContainer from '../BlogComponents/BlogContainer';
 import FullWidthImage from '../Images/FullWidthImage';
 import Slider from '../Sliders/Slider';
 import Footer from '../Footer';
