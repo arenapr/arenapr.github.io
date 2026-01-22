@@ -5,7 +5,7 @@ import Strip from '../Strip/Strip';
 import WhoWeAre from '../Banners/WhoWeAre';
 import CTA from '../Banners/CTA';
 import BlogContainer from '../BlogComponents/BlogContainer';
-import FullWidthImage from '../Images/FullWidthImage';
+import CenteredImage from '../Images/CenteredImage';
 import Slider from '../Sliders/Slider';
 import Footer from '../Footer';
 import { useLocation } from 'react-router-dom';
@@ -92,7 +92,7 @@ function Home() {
                         worry. You’re about to fall in love."
               blogTo3="/blog/jackie-herald-blog"
             />
-            <FullWidthImage
+            <CenteredImage
               imageSrc="/images/fabric.jpeg"
               imageAlt="fabric"
             />

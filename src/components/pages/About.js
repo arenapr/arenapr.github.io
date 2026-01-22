@@ -3,7 +3,7 @@ import Hero from '../Hero/Hero';
 import Strip from '../Strip/Strip';
 import CenteredText from '../Banners/CenteredText';
 import CTA from '../Banners/CTA';
-import FullWidthImage from '../Images/FullWidthImage';
+import CenteredImage from '../Images/CenteredImage';
 import Footer from '../Footer';
 
 function About() {
@@ -60,7 +60,7 @@ function About() {
                     font="ModeratFont"
                     fontSize="2rem"
                 />
-                <FullWidthImage
+                <CenteredImage
                     imageSrc="/images/fabric.jpeg"
                     imageAlt="fabric"
                 />

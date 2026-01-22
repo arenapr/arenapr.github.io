@@ -1,0 +1,16 @@
+.blog-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 60%;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    margin: auto;
+}
+
+.blog-title h1 {
+    color: #CA3631;
+    font-size: 6vw;
+}

@@ -1,0 +1,16 @@
+.blog-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 60vw;
+    padding-bottom: 3vw;
+    margin: auto;
+}
+
+.blog-paragraph p {
+    color: #CA3631;
+    font-family: "ModeratFont";
+    font-size: 1.5vw;
+}
