@@ -11,7 +11,7 @@ function BlogMiddle() {
           <div className='cards__wrapper'>
               <ul className='cards__items'>
                   <CardItem 
-                    src='/images/danielaC-450x656.jpg'
+                    src='/images/danielaC-square.jpg'
                     text='A NEW VOICE IN FASHION IN THE SOUTHWEST: DANIELA CARRANCO'
                     path='./daniela-carranco-blog'
                   />
