@@ -3,7 +3,7 @@ import RoundedCornersButton from '../Buttons/RoundedCornersButton'; '../Buttons/
 
 function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize, 
               borderColor = "#EAE7DF", borderWidth = "0", showButton = true,
-              imageRight = true}) {
+              imageRight = true, imagePadding}) {
   
   const orientationClass = imageRight ? 'image-right' : 'image-left';
   
@@ -27,7 +27,11 @@ function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize,
           />
         )}
       </div>
-      <div className="image">
+      <div className="image" 
+           style={{
+             '--image-pad':imagePadding,
+           }}
+           >
         <img
           src={imageSrc}
           alt={imageAlt}

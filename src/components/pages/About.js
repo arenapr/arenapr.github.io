@@ -12,7 +12,7 @@ function About() {
         <>
             <div className="offwhite-background">
                 <Hero 
-                    imageSrc="../images/christian-gertenbach-unsplash.jpg"
+                    imageSrc="../images/arena-website-639x6342.jpg"
                     imageAlt="HeroImg"
                     title="ABOUT"
                 />
@@ -33,8 +33,9 @@ function About() {
                     title="ARENA BEGAN AS A RESPONSE TO A LACK OF VISIBILITY AND SUPPORT LOCAL FASHION DESIGNERS"
                     text="It’s not just a platform — it’s a movement that reclaims space, tells
                          stories, and disrupts industry expectations from the edge of two worlds."
-                    imageSrc="../images/christian-gertenbach-unsplash.jpg"
+                    imageSrc="../images/arena-website-546x634.jpg"
                     imageAlt="CTAImg"
+                    imagePadding="80px"
                 />
                 <CenteredText
                     title={["\“BRIDGING CITIES.", <br/>, "ELEVATING CREATORS.\”"]}
@@ -50,8 +51,9 @@ function About() {
                     text2="Inspired by the cultural richness and resilience of the borderland, she created
                            ARENA not just as a platform, but as a movement — one that amplifies local talent
                            and redefines the narrative of fashion coming from these communities."
-                    imageSrc="../images/FER.jpg"
+                    imageSrc="../images/arena-website-546x629.jpg"
                     imageAlt="FounderImg"
+                    imagePadding="50px"
                     imageRight={false}
                     showButton={false}
                 />

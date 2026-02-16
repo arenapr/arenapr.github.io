@@ -49,7 +49,7 @@ function Home() {
         <>
           <div className="offwhite-background">
             <Hero 
-              imageSrc="../images/christian-gertenbach-unsplash.jpg"
+              imageSrc="../images/arena-website-639x6341.jpg"
               imageAlt="HeroImg"
               title={["THE FRONT ROW", <br/>, "BEGINS HERE"]}
             />
@@ -64,7 +64,7 @@ function Home() {
               text={["We are in constant search for emerging local talent in the borderland.", <br/>,
                      "Are you a local fashion designer that wants to showcase your work?"]}
               text2="Send us an email and let us know!"
-              imageSrc="../images/christian-gertenbach-unsplash.jpg"
+              imageSrc="../images/arena-website-639x6343.jpg"
               imageAlt="CTAImg"
             />
             <BlogContainer

@@ -45,20 +45,15 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to='/work-with-us' className='links-prop' onClick={closeMobileMenu}>
-              WORK WITH US
-            </Link>
-          </li>
-          <li>
             <Link to='/blog' className='links-prop' onClick={closeMobileMenu}>
               BLOG
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to='/testimonials' className='links-prop' onClick={closeMobileMenu}>
               TESTIMONIALS
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to='/contact-us' className='links-prop' onClick={closeMobileMenu}>
               CONTACT
