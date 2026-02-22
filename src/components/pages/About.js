@@ -12,7 +12,7 @@ function About() {
         <>
             <div className="offwhite-background">
                 <Hero 
-                    imageSrc="../images/arena-website-639x6342.jpg"
+                    imageSrc="../images/arena-website-639x6342.png"
                     imageAlt="HeroImg"
                     title="ABOUT"
                 />

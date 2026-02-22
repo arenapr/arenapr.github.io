@@ -8,11 +8,23 @@
 .blog-strip-image {
     display: flex;
     flex-direction: column;
+    transition: transform 0.5s, opacity 0.5s;
+    cursor: pointer;
 }
 
 .blog-strip-image img {
     width: 400px;
     height: 400px;
+}
+
+/* Adds a slight zoom and fade when hovered */
+.blog-strip-image img:hover {
+  transform: scale(1.01);
+}
+
+/* Adds an effect when the user actually clicks */
+.blog-strip-image img:active {
+  transform: scale(0.99);
 }
 
 .blog-strip-text {

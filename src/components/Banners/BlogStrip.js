@@ -14,12 +14,12 @@ function BlogStrip(props) {
                     Read More
                 </Link>
             </div>
-            <div className="blog-strip-image">
+            <a href={`#${props.blogLink}`} className="blog-strip-image">
                 <img
                     src={props.imageSrc}
                     alt={props.imageAlt}
                 />
-            </div>
+            </a>
         </div>
     );
 }
