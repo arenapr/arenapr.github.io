@@ -1,5 +1,5 @@
 .jamie-saenz-blog-north-container {
-    background-color: #f7f7f7;
+    background-color: #EAE7DF;
     display: flex;
     flex-direction: row;
     width: 900px;
@@ -15,7 +15,7 @@
 }
 
 .jamie-saenz-blog-north-container h1 {
-    color: #000;
+    color: #CA3631;
     font-size: 4vw;
     font-weight: normal;
     text-align: left;

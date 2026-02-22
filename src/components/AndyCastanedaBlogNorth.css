@@ -1,5 +1,5 @@
 .andy-castaneda-blog-north-container {
-    background-color: #f7f7f7;
+    background-color: #EAE7DF;
     display: flex;
     flex-direction: row;
     width: 900px;
@@ -15,11 +15,11 @@
 }
 
 .andy-castaneda-blog-north-container h1 {
-    color: #000;
+    color: #CA3631;
     font-size: 4vw;
     font-weight: normal;
     text-align: left;
-    letter-spacing: -0.6vw;
+    letter-spacing: -0.15vw;
 }
 
 @media screen and (max-width: 960px) {
@@ -30,6 +30,6 @@
     }
 
     .andy-castaneda-blog-north-container h1 {
-        font-size: 5vw;
+        font-size: 9vw;
     }
 }

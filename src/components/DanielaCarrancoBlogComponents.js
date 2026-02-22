@@ -7,18 +7,18 @@ function DanielaCarrancoBlogComponents(props) {
       <div className='offwhite-background'>
         <div className='daniela-carranco-container'>
           <div class="daniela-carranco-inner">
-            <h1>A New Voice in Fashion in the Southwest: A Conversation with <i>Daniela Carranco</i></h1>
-            </div>
+            <h1>A New Voice in Fashion in the Southwest: A Conversation with Daniela Carranco</h1>
+          </div>
         </div>
         <div className='daniela-carranco-middle-container'>
             <p>
                 Updated on 02.09.2026 by Fernanda Ortiz
             </p>
             <br/>
-            <br/>
             <h2>
                 FROM HIGH SCHOOL SEWING CLASS TO COLLEGE RUNWAYS
             </h2>
+            <br/>
             <p2>
                 Ask Daniela Carranco when she fell for fashion, and she’ll say it’s a feeling she’s
                 always had—not a single moment.<br/>
@@ -67,6 +67,7 @@ function DanielaCarrancoBlogComponents(props) {
           <h2>
             SUSTAINABILITY, BUT MAKE IT FASHION
           </h2>
+          <br/>
           <p2>
             One of Daniela’s standout pieces is a red corset with a bright blue skirt and
             floral details made from plastic placemats and fabric scraps. The idea began as
@@ -101,6 +102,7 @@ function DanielaCarrancoBlogComponents(props) {
           <h2>
             FASHION INSPIRATION COMES FROM EVERYWHERE
           </h2>
+          <br/>
           <p2>
             Daniela’s inspiration is everywhere—movies, theater, music, and books all
             influence her. She loves films that prompt her to imagine character wardrobes.
@@ -121,6 +123,7 @@ function DanielaCarrancoBlogComponents(props) {
           <h2>
             BUILDING A FUTURE IN THE SOUTHWEST
           </h2>
+          <br/>
           <p2>
             Too often, fashion is associated only with cities like New York or Los Angeles.
             Daniela believes that mindset overlooks the creativity, culture, and stories coming

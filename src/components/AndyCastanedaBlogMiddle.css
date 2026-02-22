@@ -1,5 +1,5 @@
 .andy-castaneda-blog-middle-container {
-    background-color: #f7f7f7;
+    background-color: #EAE7DF;
     display: flex;
     flex-direction: column;
     width: 900px;
@@ -8,7 +8,7 @@
 }
 
 .andy-castaneda-blog-middle-container h1 {
-    color: #000;
+    color: #CA3631;
     font-size: 3vw;
     font-weight: normal;
     text-align: center;
@@ -18,29 +18,29 @@
 }
 
 .andy-castaneda-blog-middle-container h2 {
-    color: #000;
+    color: #CA3631;
     font-size: 2vw;
     font-weight: normal;
     text-align: left;
 }
 
 .andy-castaneda-blog-middle-container p {
-    color: #000;
-    font-family: 'JuraBold';
+    color: #CA3631;
+    font-family: 'ModeratFont';
     font-size: 12px;
     text-align: left;
 }
 
 .andy-castaneda-blog-middle-container p2 {
-    color: #000;
-    font-family: 'JuraBold';
+    color: #CA3631;
+    font-family: 'ModeratFont';
     font-size: 18px;
     text-align: left;
 }
 
 .andy-castaneda-blog-middle-container p3 {
-    color: #000;
-    font-family: 'JuraBold';
+    color: #CA3631;
+    font-family: 'ModeratFont';
     font-size: 24px;
     text-align: left;
 }
@@ -99,18 +99,19 @@
 }
 
 .andy-castaneda-images-container2 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: left;
+    max-width: 50%;
+    letter-spacing: -0.09vw;
 }
 
 .andy-castaneda-images-container2 > img {
-    /* width: 200px; */
     height: auto;
     display: block;
 }
 
 b {
-    font-family: 'JuraBold';
+    font-family: 'ModeratFont';
     font-weight: bold;
     font-size: smaller; 
 }
@@ -122,16 +123,16 @@ b {
 }
 
 .andy-castaneda-body-container p {
-    color: #000;
-    font-family: 'JuraBold';
+    color: #CA3631;
+    font-family: 'ModeratFont';
     font-size: 2vw;
     text-align: left;
     line-height: 2.5vw;
 }
 
 .andy-castaneda-body-container b {
-    color: #000;
-    font-family: 'JuraBold';
+    color: #CA3631;
+    font-family: 'ModeratFont';
     font-size: 3vw;
     text-align: left;
     line-height: 2.5vw;
@@ -220,20 +221,20 @@ b {
     }
 
     .andy-castaneda-blog-middle-container h2 {
-        font-size: 4vw; /* smaller than desktop 2vw? adjust as needed */
+        font-size: 6vw; /* smaller than desktop 2vw? adjust as needed */
         text-align: left; /* keeps alignment consistent */
     }
 
     .andy-castaneda-blog-middle-container p2 {
-        color: #000;
-        font-family: 'JuraBold';
+        color: #CA3631;
+        font-family: 'ModeratFont';
         font-size: 16px;
         text-align: left;
     }
 
     .andy-castaneda-blog-middle-container p3 {
-        color: #000;
-        font-family: 'JuraBold';
+        color: #CA3631;
+        font-family: 'ModeratFont';
         font-size: 18px;
         text-align: left;
     }

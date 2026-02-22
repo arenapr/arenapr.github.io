@@ -15,6 +15,24 @@ function Blog() {
         <>
         <div className="offwhite-background">
           <BlogStrip
+            date="02 / 09 / 2026"
+            title="A NEW VOICE IN FASHION IN THE SOUTHWEST: DANIELA CARRANCO"
+            text="Ask Daniela Carranco when she fell for fashion, and she’ll say it’s a 
+                  feeling she’s always had—not a single moment."
+            blogLink="/blog/daniela-carranco-blog"
+            imageSrc="/images/danielaC-square.jpg"
+            imageAlt="DanielaCarrancoImage"
+          />
+          <BlogStrip
+            date="01 / 19 / 2026"
+            title="SLOWING DOWN, STITCH BY STITCH WITH ANDY CASTANEDA"
+            text="If you’ve ever thought crochet was just a “grandma hobby,” Andy Castaneda is 
+                  here to completely flip that idea on its head."
+            blogLink="/blog/andy-castaneda-blog"
+            imageSrc="/images/andyc-800x800.jpg"
+            imageAlt="AndyCastanedaImage"
+          />
+          <BlogStrip
             date="01 / 01 / 2026"
             title="JAMIE SAENZ: DESIGNING WITH PASSION, PURPOSE, AND HEART"
             text="At just 16, Jamie Saenz is already making a name for herself in fashion. 
