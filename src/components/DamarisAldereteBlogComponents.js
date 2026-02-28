@@ -39,7 +39,7 @@ function DamarisAldereteBlogComponents(props) {
             </p2>
           <br/>
           <h2>
-            ROOTS IN TRADITION, EYES ON FANTASY
+            ROOTED IN TRADITION, EYES ON FANTASY
           </h2>
           <p2>
             Damaris didn't grow up dreaming of fashion week. She grew up watching her
