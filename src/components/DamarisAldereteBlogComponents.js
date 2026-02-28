@@ -92,7 +92,7 @@ function DamarisAldereteBlogComponents(props) {
             romantic path."
           </h3>
           <br/>
-          <img src='../images/_A744223 - Damaris Alderete (1).jpeg' alt='DamarisAldereteImage'></img>
+          <img src='../images/studio-mimari-cocoon-900x690.png' alt='DamarisAldereteImage'></img>
           <br/>
           <h2>
             <i>EXPLOITS</i>: A COLLECTION ABOUT EVERYTHING THAT BREAKS YOU (AND
