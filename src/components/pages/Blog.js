@@ -15,6 +15,16 @@ function Blog() {
         <>
         <div className="offwhite-background">
           <BlogStrip
+            date="02 / 28 / 2026"
+            title="RUFFELS, TULLE, AND 'NONSENSE': DAMARIS ALDERETE'S FANTASTICAL VISION"
+            text="Damaris' work doesn't just focus on aesthetics. It tells a story, turning 
+                  emotion into shape, texture, and movement. And this is only the beginning 
+                  of what she is building."
+            blogLink="/blog/damaris-alderete-blog"
+            imageSrc="/images/damaris-500x500 copy.webp"
+            imageAlt="DamarisAldereteImage"
+          />
+          <BlogStrip
             date="02 / 09 / 2026"
             title="A NEW VOICE IN FASHION IN THE SOUTHWEST: DANIELA CARRANCO"
             text="Ask Daniela Carranco when she fell for fashion, and she’ll say it’s a 

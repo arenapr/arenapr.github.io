@@ -1,13 +1,13 @@
 import React from 'react'
 import '../App.css'
-import './AliciaFloresBlogNorth.css'
+import './JackieHeraldBlogNorth.css'
 
-function AliciaFloresBlogNorth(props) {
+function JackieHeraldBlogNorth(props) {
   return (
     <>
       <div className='offwhite-background'>
-        <div className='alicia-flores-blog-north-container'>
-          <div class="alicia-flores-blog-north-inner">
+        <div className='jackie-herald-blog-north-container'>
+          <div class="jackie-herald-blog-north-inner">
             <h1><i>Jackie Herald</i>: Redefining Fashion as Art on the Border</h1>
             </div>
         </div>
@@ -16,4 +16,4 @@ function AliciaFloresBlogNorth(props) {
   )
 }
 
-export default AliciaFloresBlogNorth
+export default JackieHeraldBlogNorth

@@ -19,12 +19,12 @@ function NathBlogMiddle(props) {
           <div className='nath-body-container'>
             <div className='nath-left-column'>
               <p>Born and raised in Ciudad Juárez, Nath’s earliest memories of fashion involve watching his grandmother 
-                 sew and flipping through <i>VOGUE</i> magazines. That quiet fascination quickly grew into a passion, and eventually 
+                 sew and flipping through VOGUE magazines. That quiet fascination quickly grew into a passion, and eventually 
                  a career that’s now reaching international runways and celebrity closets.
               </p>
               <br/>
-              <p>Today, his brand, <i>HYPNOSIS</i>, has become a standout name in Mexico’s emerging fashion scene. With a design aesthetic 
-                 he calls “<i>Clásicamente Extravagante</i>” (Classically Extravagant), Nath creates bold silhouettes that are surprisingly 
+              <p>Today, his brand, HYPNOSIS, has become a standout name in Mexico’s emerging fashion scene. With a design aesthetic 
+                 he calls “Clásicamente Extravagante” (Classically Extravagant), Nath creates bold silhouettes that are surprisingly 
                  easy to wear. “With HYPNOSIS, I want every woman to feel elegant, complete, and confident enough to be different,” 
                  he says. He draws inspiration from Latin American designers like Johanna Ortiz and blends it with his own sense of 
                  timelessness and edge.
@@ -37,7 +37,7 @@ function NathBlogMiddle(props) {
               </p>
               <br/>
               <p>For Nath, fashion is more than trends—it’s a form of dreaming and storytelling. He emphasizes variety in fabrics and textures, 
-                letting materials guide the direction of each piece. One of his most colorful and spontaneous collections was <i>POPURRÍ</i>, a mix of
+                letting materials guide the direction of each piece. One of his most colorful and spontaneous collections was POPURRÍ, a mix of
                  vibrant fabrics without a set theme, designed to offer a little something for everyone.
               </p>
               <br/>
@@ -46,12 +46,12 @@ function NathBlogMiddle(props) {
                 <p class="image-caption">Mexican singer Majo Aguilar wears HYPNOSIS for Estilo DF magazine.</p>
               </div>
               <br/>
-              <p>His big break came in <i>2022</i>, when he was contacted by a fashion showroom in Mexico City. That opportunity catapulted 
-                his career to new heights. Soon after, his designs were featured in <i>Reforma, Estilo DF</i>, and even <i>InStyle Greece</i>. 
+              <p>His big break came in 2022, when he was contacted by a fashion showroom in Mexico City. That opportunity catapulted 
+                his career to new heights. Soon after, his designs were featured in Reforma, Estilo DF, and even InStyle Greece. 
                 “That was one of the most rewarding moments of my career—I truly didn’t expect it,” he shares.
               </p>
               <br/>
-              <p>Nath’s latest collection, <i>Atardecer</i>, is a deeply personal tribute to his late grandmother Ofelia. “I felt a lot of 
+              <p>Nath’s latest collection, Atardecer, is a deeply personal tribute to his late grandmother Ofelia. “I felt a lot of 
                 solitude after she passed,” he says. Inspired by her favorite song, Cruz de Olvido, Atardecer is not just a seasonal 
                 collection—it’s a form of healing. “She taught me how to sew.
               </p>
@@ -71,8 +71,8 @@ function NathBlogMiddle(props) {
               </p>
               <br/>
               <p>With a physical boutique in Ciudad Juárez, and growing recognition in both national and international circles, Nath has 
-                 big dreams for the future. “I want to open my own workroom and see my designs on the cover of <i>VOGUE</i>—that’s the ultimate dream.” 
-                 He also hopes to dress actress Cecilia Suárez from <i>La Casa de las Flores</i> one day.
+                 big dreams for the future. “I want to open my own workroom and see my designs on the cover of VOGUE—that’s the ultimate dream.” 
+                 He also hopes to dress actress Cecilia Suárez from La Casa de las Flores one day.
               </p>
               <br/>
               <p>Nath is proof that big dreams can grow from small beginnings. His advice to other young designers?

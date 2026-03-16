@@ -1,9 +1,10 @@
 import './BlogText.css';
 
-function BlogText(props) {
+function BlogText({ children, title }) {
   return (
       <div className="blog-paragraph">
-        <p>{props.text}</p>
+        {title && <h1>{title}</h1>}
+        <p>{children}</p>
       </div>
   );
 }

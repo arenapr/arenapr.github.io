@@ -53,21 +53,21 @@ function NickoBlogMiddle(props) {
               <div className='nicko-images-container'>
                 <img src='../images/Meaningless_1_1080x1920-01.png' alt='Meaningless Image'></img>
               </div>
-                One of Nicko's signature techniques is <i>boro</i>, a 17th-century Japanese method of repairing and mending 
+                One of Nicko's signature techniques is boro, a 17th-century Japanese method of repairing and mending 
                 fabric. In its early days, boro wasn’t about fashion—it was born out of necessity. Farmers and workers 
                 in Japan used the technique to extend the life of their clothing by patching holes with whatever fabric 
                 they had on hand. Over time, the layers of patches and stitches created intricate, textured designs that 
                 told stories of resilience and resourcefulness.<br/><br/>
-                Nicko’s modern take on <i>boro</i> preserves its roots while making it contemporary. He blends sashiko stitching 
+                Nicko’s modern take on boro preserves its roots while making it contemporary. He blends sashiko stitching 
                 with denim to create visually striking, textured patterns that elevate the material beyond its utilitarian 
                 origins. "It’s about giving life to something that would otherwise be discarded," he explains. By incorporating 
                 this method into his work, Nicko creates one-of-a-kind pieces that celebrate imperfections and embrace 
                 sustainability.<br/><br/>
-                For Nicko, <i>boro</i> is also deeply personal. It represents more than just an artistic technique—it’s a connection 
+                For Nicko, boro is also deeply personal. It represents more than just an artistic technique—it’s a connection 
                 to craftsmanship, cultural appreciation, and the beauty of reimagining old materials. The intricate stitching 
                 transforms discarded jeans into wearable art, turning every thread into a story of care, creativity, 
                 and reinvention.<br/><br/>
-                By embracing <i>boro</i>, Nicko honors an ancient craft and creates a bridge between the past and present, 
+                By embracing boro, Nicko honors an ancient craft and creates a bridge between the past and present, 
                 sustainability and style. His work reminds us that fashion can be both meaningful and mindful, a philosophy 
                 that sits at the heart of <strong>Meaningless Connection</strong>.
               </p>

@@ -1,14 +1,17 @@
 import './CenteredImage.css';
 
-function CenteredImage({imageSrc, imageAlt, imageWidth = "100%", imageHeight = "auto"}) {
+function CenteredImage({imageSrc, imageAlt, imageWidth = "100%", imageHeight = "auto", imagePadding = "0px",
+                        mobileWidth = "100%"}) {
     return (
         <img
             className="centered-img"
             src={imageSrc}
             alt={imageAlt}
             style={{
-                width:imageWidth,
-                height:imageHeight
+                '--img-w': imageWidth,
+                '--img-h': imageHeight,
+                '--img-pad': imagePadding,
+                '--img-mob-w': mobileWidth
             }}
         />
    );
