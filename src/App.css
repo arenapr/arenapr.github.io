@@ -27,3 +27,30 @@
     background: #EAE7DF;
     width: 100%;
   }
+
+/* The initial state of the component */
+.reveal-section {
+    opacity: 0;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    visibility: hidden;
+}
+
+/* Starting Positions */
+.reveal-up { 
+  transform: translateY(30px); 
+}
+
+.reveal-left { 
+  transform: translateX(-50px); 
+} 
+
+.reveal-right { 
+  transform: translateX(50px); 
+}
+
+/* The state when the Intersection Observer triggers */
+.reveal-section.is-visible {
+    opacity: 1;
+    transform: translate(0,0);
+    visibility: visible;
+}

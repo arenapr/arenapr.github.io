@@ -1,5 +1,6 @@
 import './CTA.css';
 import RoundedCornersButton from '../Buttons/RoundedCornersButton'; '../Buttons/RoundedCornersButton';
+import RevealOnScroll from '../../effects/RevealOnScroll';
 
 function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize, 
               borderColor = "#EAE7DF", borderWidth = "0", showButton = true,
@@ -28,14 +29,16 @@ function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize,
         )}
       </div>
       <div className="image" 
-           style={{
-             '--image-pad':imagePadding,
-           }}
-           >
-        <img
-          src={imageSrc}
-          alt={imageAlt}
-        />
+          style={{
+            '--image-pad':imagePadding,
+          }}
+          >
+        <RevealOnScroll direction={imageRight ? "right" : "left"}>
+          <img
+            src={imageSrc}
+            alt={imageAlt}
+          />
+        </RevealOnScroll>
       </div>
     </div>
   );
