@@ -4,12 +4,13 @@
     justify-content: center;
     align-items: flex-start;
     text-align: left;
-    max-width: 60vw;
     margin-inline: auto;
 }
 
 .blog-paragraph p {
     color: #CA3631;
+    align-self: center;
+    max-width: 60vw;
     font-family: "ModeratFont";
     font-size: 1.25vw;
     padding-bottom: 2vw;
@@ -17,6 +18,8 @@
 
 .blog-paragraph h1 {
     font-family: "ModeratFont";
+    max-width: 60vw;
+    align-self: var(--title-align);
     color: #CA3631;
     font-size: 1.5vw;
 }

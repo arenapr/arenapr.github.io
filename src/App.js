@@ -7,9 +7,7 @@ import Blog from './components/pages/Blog'
 import About from './components/pages/About';
 import ContactUs from './components/pages/ContactUs';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
-import AlexisLopezBlog from './components/pages/Blogs/AlexisLopezBlog';
 import SergioEstradaBlog from './components/pages/Blogs/SergioEstradaBlog';
-import JanaceGriffinBlog from './components/pages/Blogs/JanaceGriffinBlog';
 import NickoSenaBlog from './components/pages/Blogs/NickoSenaBlog';
 import NathMoraBlog from './components/pages/Blogs/NathMoraBlog';
 import HilveniaBlog from './components/pages/Blogs/HilveniaBlog';
@@ -19,6 +17,7 @@ import JamieSaenzBlog from './components/pages/Blogs/JamieSaenzBlog';
 import AndyCastanedaBlog from './components/pages/Blogs/AndyCastanedaBlog';
 import DanielaCarrancoBlog from './components/pages/Blogs/DanielaCarrancoBlog';
 import DamarisAldereteBlog from './components/pages/Blogs/DamarisAldereteBlog';
+import OriginStoryBlog from './components/pages/Blogs/OriginStoryBlog';
 
 function App() {
   return (
@@ -31,9 +30,8 @@ function App() {
         <Route path='/blog' Component={Blog} />
         <Route path='/contact-us' Component={ContactUs}/>
         <Route path='/privacy-policy' Component={PrivacyPolicy} />
-        <Route path='blog/alexis-lopez-blog' Component={AlexisLopezBlog} />
+        <Route path='blog/origin-story-blog' Component={OriginStoryBlog} />
         <Route path='blog/sergio-estrada-blog' Component={SergioEstradaBlog} />
-        <Route path='blog/janace-griffin-blog' Component={JanaceGriffinBlog} />
         <Route path='blog/nicko-sena-blog' Component={NickoSenaBlog} />
         <Route path='blog/nath-mora-blog' Component={NathMoraBlog} />
         <Route path='blog/hilvenia-blog' Component={HilveniaBlog} />

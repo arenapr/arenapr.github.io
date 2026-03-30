@@ -108,6 +108,18 @@ function Blog() {
             imageSrc="/images/6par6noid6.jpeg"
             imageAlt="SergioEstradaImage"
           />
+          <BlogStrip
+            date="08 / 16 / 2024"
+            title="ORIGIN STORY"
+            text="ARENA was born out of a deep love for fashion, art, and storytelling — and a frustration
+                  with how those things are dismissed when they come from the border. Fashion here has
+                  long been stigmatized as a hobby rather than recognized as a serious art form and
+                  industry. ARENA exists to change that: to amplify local Hispanic creative talent and
+                  prove that the frontera is not the edge of the story — it’s where a new one begins."
+            blogLink="/blog/origin-story-blog"
+            imageSrc="/images/ARENA-03 - Copy.png"
+            imageAlt="ARENAImage"
+          />
           <br/>
           <Strip
               text="FASHION. CULTURE. COMMUNITY. "
