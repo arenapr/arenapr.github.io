@@ -15,6 +15,17 @@ function Blog() {
         <>
         <div className="offwhite-background">
           <BlogStrip
+            date="03 / 26 / 2026"
+            title="MORE THAN A CHAIN: PRISCILLA MARQUEZ IS REDEFINING PERMANENT JEWELRY"
+            text="Meet Priscilla Marquez, the El Paso jewelry designer behind Dainty Gem 
+            — a permanent jewelry studio where every piece is built with intention, 
+            meaning, and a little bit of magic. ARENA sits down with one of the 
+            borderland's most thoughtful emerging creatives."
+            blogLink="/blog/priscilla-marquez-blog"
+            imageSrc="/images/priscilla-900x900Artboard-1.png"
+            imageAlt="PriscillaMarquezImage"
+          />
+          <BlogStrip
             date="02 / 28 / 2026"
             title="RUFFELS, TULLE, AND 'NONSENSE': DAMARIS ALDERETE'S FANTASTICAL VISION"
             text="Damaris' work doesn't just focus on aesthetics. It tells a story, turning 

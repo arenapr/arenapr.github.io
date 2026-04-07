@@ -66,30 +66,33 @@ function Home() {
               text2="Send us an email and let us know!"
               imageSrc="../images/arena-website-639x6343.png"
               imageAlt="CTAImg"
+              buttonLink="/contact-us"
             />
             <BlogContainer
               title="BLOG"
-              imageSrc="/images/damaris-500x500 copy.webp"
-              imageAlt="DamarisAldereteImage"
-              blogTitle="RUFFELS, TULLE, AND 'NONSENSE': DAMARIS ALDERETE'S FANTASTICAL VISION"
-              blogText="Damaris' work doesn't just focus on aesthetics. It tells a story, turning 
+
+              imageSrc="/images/priscilla-900x900Artboard-1.png"
+              imageAlt="PriscillaMarquezImage"
+              blogTitle="MORE THAN A CHAIN: PRISCILLA MARQUEZ IS REDEFINING PERMANENT JEWELRY"
+              blogText="Meet Priscilla Marquez, the El Paso jewelry designer behind Dainty Gem 
+                      — a permanent jewelry studio where every piece is built with intention, 
+                      meaning, and a little bit of magic."
+              blogTo="/blog/priscilla-marquez-blog"
+
+              imageSrc2="/images/damaris-500x500 copy.webp"
+              imageAlt2="DamarisAldereteImage"
+              blogTitle2="RUFFELS, TULLE, AND 'NONSENSE': DAMARIS ALDERETE'S FANTASTICAL VISION"
+              blogText2="Damaris' work doesn't just focus on aesthetics. It tells a story, turning 
                         emotion into shape, texture, and movement. And this is only the beginning 
                         of what she is building."
-              blogTo="/blog/damaris-alderete-blog"
+              blogTo2="/blog/damaris-alderete-blog"
 
-              imageSrc2="/images/danielaC-square.jpg"
-              imageAlt2="DanielaCarrancoImage"
-              blogTitle2="A NEW VOICE IN FASHION IN THE SOUTHWEST: DANIELA CARRANCO"
-              blogText2="Ask Daniela Carranco when she fell for fashion, and she’ll say it’s a 
+              imageSrc3="/images/danielaC-square.jpg"
+              imageAlt3="DanielaCarrancoImage"
+              blogTitle3="A NEW VOICE IN FASHION IN THE SOUTHWEST: DANIELA CARRANCO"
+              blogText3="Ask Daniela Carranco when she fell for fashion, and she’ll say it’s a 
                         feeling she’s always had—not a single moment."
-              blogTo2="/blog/daniela-carranco-blog"
-
-              imageSrc3="/images/andyc-800x800.jpg"
-              imageAlt3="AndyCastanedaImage"
-              blogTitle3="SLOWING DOWN, STITCH BY STITCH WITH ANDY CASTANEDA"
-              blogText3="If you’ve ever thought crochet was just a “grandma hobby,” Andy Castaneda is 
-                        here to completely flip that idea on its head."
-              blogTo3="/blog/andy-castaneda-blog"
+              blogTo3="/blog/daniela-carranco-blog"
             />
             <CenteredImage
               imageSrc="/images/fabric.jpeg"

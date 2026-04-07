@@ -4,7 +4,7 @@ import RevealOnScroll from '../../effects/RevealOnScroll';
 
 function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize, 
               borderColor = "#EAE7DF", borderWidth = "0", showButton = true,
-              imageRight = true, imagePadding}) {
+              imageRight = true, imagePadding, buttonLink = "/about"}) {
   
   const orientationClass = imageRight ? 'image-right' : 'image-left';
   
@@ -21,7 +21,7 @@ function CTA({title, text, text2, imageSrc, imageAlt, titleFont, titleSize,
         <p>{text2}</p>
         {showButton && (
           <RoundedCornersButton
-            to="/about"
+            to={buttonLink}
             text="LEARN MORE"
             color="#CA3631"
             borderColor="#EAE7DF"

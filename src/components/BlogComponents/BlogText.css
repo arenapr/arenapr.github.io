@@ -1,39 +1,39 @@
 .blog-paragraph {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    width: 100%;
     margin-inline: auto;
 }
 
 .blog-paragraph p {
     color: #CA3631;
+    width: 100%;
     align-self: center;
     max-width: 60vw;
     font-family: "ModeratFont";
     font-size: 1.25vw;
     padding-bottom: 2vw;
+    text-align: left;
 }
 
 .blog-paragraph h1 {
     font-family: "ModeratFont";
+    width: 100%;
     max-width: 60vw;
-    align-self: var(--title-align);
+    text-align: var(--title-align);
     color: #CA3631;
-    font-size: 1.5vw;
+    font-size: var(--title-size);
 }
 
 @media (max-width: 768px) {
-  .blog-paragraph  {
-    max-width: 80%;
-  }
-
   .blog-paragraph p {
+    max-width: 80%;
     font-size: 1rem;
   }
 
   .blog-paragraph h1 {
-    font-size: 1rem;
+    max-width: 80%;
+    font-size: 2rem;
   }
 }

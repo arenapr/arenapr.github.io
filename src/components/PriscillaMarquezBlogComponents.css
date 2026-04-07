@@ -1,5 +1,5 @@
 .priscilla-marquez-container {
-    background-color: #f7f7f7;
+    background-color: #EAE7DF;
     display: flex;
     flex-direction: row;
     width: 900px;
@@ -15,15 +15,15 @@
 }
 
 .priscilla-marquez-container h1 {
-    color: #000;
+    color: #CA3631;
     font-size: 4vw;
     font-weight: normal;
     text-align: left;
-    letter-spacing: -0.6vw;
+    letter-spacing: -0.2vw;
 }
 
 .priscilla-marquez-middle-container {
-    background-color: #f7f7f7;
+    background-color: #EAE7DF;
     display: flex;
     flex-direction: column;
     width: 900px;
@@ -32,7 +32,7 @@
 }
 
 .priscilla-marquez-middle-container h1 {
-    color: #000;
+    color: #CA3631;
     font-size: 3vw;
     font-weight: normal;
     text-align: center;
@@ -42,29 +42,29 @@
 }
 
 .priscilla-marquez-middle-container h2 {
-    color: #000;
+    color: #CA3631;
     font-size: 2vw;
     font-weight: normal;
     text-align: left;
 }
 
 .priscilla-marquez-middle-container p {
-    color: #000;
-    font-family: 'JuraBold';
+    color: #CA3631;
+    font-family: 'ModeratFont';
     font-size: 12px;
     text-align: left;
 }
 
 .priscilla-marquez-middle-container p2 {
-    color: #000;
-    font-family: 'JuraBold';
+    color: #CA3631;
+    font-family: 'ModeratFont';
     font-size: 20px;
     text-align: left;
 }
 
 .priscilla-marquez-middle-container p3 {
-    color: #000;
-    font-family: 'JuraBold';
+    color: #CA3631;
+    font-family: 'ModeratFont';
     font-size: 24px;
     text-align: left;
 }
@@ -118,15 +118,15 @@
     }
 
     .priscilla-marquez-middle-container p2 {
-        color: #000;
-        font-family: 'JuraBold';
+        color: #CA3631;
+        font-family: 'ModeratFont';
         font-size: 16px;
         text-align: left;
     }
 
     .priscilla-marquez-middle-container p3 {
-        color: #000;
-        font-family: 'JuraBold';
+        color: #CA3631;
+        font-family: 'ModeratFont';
         font-size: 18px;
         text-align: left;
     }

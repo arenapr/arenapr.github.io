@@ -1,7 +1,7 @@
 import './CenteredText.css';
 import RoundedCornersButton from '../Buttons/RoundedCornersButton';
 
-function CenteredText({title, font, fontSize, showButton = false, borderColor = "#EAE7DF", 
+function CenteredText({title, font, fontSize = "4rem", showButton = false, borderColor = "#EAE7DF", 
                        borderWidth = "0"}) {
     return (
         <div 
@@ -9,7 +9,7 @@ function CenteredText({title, font, fontSize, showButton = false, borderColor = 
             style={{
                 borderBottom: `${borderWidth} solid ${borderColor}`
             }}>
-            <h1 style={{fontFamily: font, fontSize: fontSize}}>{title}</h1>
+            <h1 style={{fontFamily: font, '--font-size': fontSize}}>{title}</h1>
             {showButton && (
                 <RoundedCornersButton
                     to="/about"

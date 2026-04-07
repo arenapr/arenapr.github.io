@@ -9,13 +9,13 @@
 }
 
 .centered-text-container h1 {
-    font-size: 4rem;
+    font-size: var(--font-size);
     color: #CA3631;
     margin-block: 3vh;
 }
 
 @media (max-width: 768px) {
     .centered-text-container h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }

@@ -36,6 +36,7 @@ function About() {
                     imageSrc="../images/arena-website-546x634.jpg"
                     imageAlt="CTAImg"
                     imagePadding="80px"
+                    buttonLink="/blog/origin-story-blog"
                 />
                 <CenteredText
                     title={["\“BRIDGING CITIES.", <br/>, "ELEVATING CREATORS.\”"]}
@@ -68,7 +69,7 @@ function About() {
                 />
                 <CenteredText
                     title={["THE FUTURE OF FASHION", <br/>, "LIVES HERE"]}
-                    showButton={true}
+                    showButton={false}
                     borderColor="#CA3631"
                     borderWidth="2px"
                 />
