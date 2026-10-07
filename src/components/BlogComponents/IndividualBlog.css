@@ -33,23 +33,29 @@
 
 @media (max-width: 768px) {
   .individual-blog {
-    width: 300px;
-    height: 550px;
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+    background-color: #EAE7DF;
+    align-items: center;
   }
 
   .individual-blog img {
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
     margin-bottom: 25px;
   }
 
   .blog-text {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    color: #CA3631;
   }
 
   .blog-text h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .blog-text p {

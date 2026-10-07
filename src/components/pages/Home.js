@@ -51,7 +51,7 @@ function Home() {
             <Hero 
               imageSrc="../images/arena-website-639x6341.png"
               imageAlt="HeroImg"
-              title={["THE FRONT ROW", <br/>, "BEGINS HERE"]}
+              title={["THE FRONT ROW BEGINS HERE"]}
             />
             <Strip
               text="FASHION. CULTURE. COMMUNITY. "

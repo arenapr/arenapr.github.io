@@ -48,14 +48,17 @@
 
   .text-left {
     padding: 10px 20px 10px 20px;
+    align-items: center;
   }
 
   .text-left h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .text-left p {
     font-size: 14px;
+    text-align: center;
   }
 
   .image-left {

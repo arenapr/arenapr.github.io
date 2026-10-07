@@ -50,6 +50,10 @@
     height: 50%;
   }
 
+  .text h1 {
+    text-align: center;
+  }
+
   .text h2 {
     font-size: 7.5rem;
     letter-spacing: -2px;

@@ -23,11 +23,11 @@
 
 @media (max-width: 768px) {
   .blog-container {
-    padding: 20px;
+    padding: 10px;
   }
 
   .blog-container h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .blog-list {
