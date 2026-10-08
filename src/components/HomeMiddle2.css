@@ -1,13 +1,12 @@
 .home-middle-2-container {
-  background-color: #ca3631;
+  background-color: #000;
 }
 
 .home-middle-2-inner {
-  width: 900px;
-  padding: 20px;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  margin: auto;
+  align-items: center;
+  height: 50vh;
 }
 
 .home-middle-2-container h1 {
@@ -19,9 +18,10 @@
 @media screen and (max-width: 960px) {
   .home-middle-2-inner {
     width: 100%;
+    height: 20vh;
   }
 
   .home-middle-2-container h1 {
-    font-size: 10vw;
+    font-size: 7vw;
   }
 }

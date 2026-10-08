@@ -14,12 +14,11 @@
     text-align: center;
     margin: 1vw;
     margin-top: 3vw;
-    letter-spacing: -0.2vw;
 }
 
 .sergio-blog-middle-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
@@ -39,7 +38,7 @@
 }
 
 b {
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-weight: bold;
     font-size: smaller; 
 }
@@ -52,7 +51,7 @@ b {
 
 .sergio-body-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 2vw;
     text-align: left;
     line-height: 2.5vw;
@@ -60,7 +59,7 @@ b {
 
 .sergio-body-container b {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 3vw;
     text-align: left;
     line-height: 2.5vw;

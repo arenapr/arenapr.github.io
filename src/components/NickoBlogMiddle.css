@@ -14,12 +14,11 @@
     text-align: center;
     margin-top: 1vw;
     margin-bottom: 2vw;
-    letter-spacing: -0.2vw;
 }
 
 .nicko-blog-middle-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
     margin-left: 2vw;
@@ -54,14 +53,14 @@
 
 .nicko-body-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
 
 .nicko-body-container b {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 18px;
     text-align: left;
 }

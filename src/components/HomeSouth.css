@@ -1,16 +1,17 @@
 .home-south-container {
-    background-color: #f7f7f7;
+    background-color: #ca3631;
     display: flex;
     flex-direction: column;
-    width: 900px;
-    padding: 2rem;
+    width: 100vw;
+    padding-block: 5vh;
+    padding-inline: 10vw;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
 
 .home-south-container > h1 {
-    color: #000;
+    color: #f7f7f7;
     font-size: 38px;
     font-weight: normal;
 }
@@ -43,5 +44,9 @@
 
     .home-south-container > h1 {
         font-size: 18px;
+    }
+
+    .home-south-container {
+        padding: 2rem;
     }
 }

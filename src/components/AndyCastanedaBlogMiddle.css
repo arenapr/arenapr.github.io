@@ -14,7 +14,6 @@
     text-align: center;
     margin: 1vw;
     margin-top: 3vw;
-    letter-spacing: -0.2vw;
 }
 
 .andy-castaneda-blog-middle-container h2 {
@@ -26,21 +25,21 @@
 
 .andy-castaneda-blog-middle-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
 
 .andy-castaneda-blog-middle-container p2 {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 18px;
     text-align: left;
 }
 
 .andy-castaneda-blog-middle-container p3 {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 24px;
     text-align: left;
 }
@@ -110,7 +109,7 @@
 }
 
 b {
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-weight: bold;
     font-size: smaller; 
 }
@@ -123,7 +122,7 @@ b {
 
 .andy-castaneda-body-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 2vw;
     text-align: left;
     line-height: 2.5vw;
@@ -131,7 +130,7 @@ b {
 
 .andy-castaneda-body-container b {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 3vw;
     text-align: left;
     line-height: 2.5vw;
@@ -226,14 +225,14 @@ b {
 
     .andy-castaneda-blog-middle-container p2 {
         color: #000;
-        font-family: 'JuraBold';
+        font-family: 'MyFont';
         font-size: 16px;
         text-align: left;
     }
 
     .andy-castaneda-blog-middle-container p3 {
         color: #000;
-        font-family: 'JuraBold';
+        font-family: 'MyFont';
         font-size: 18px;
         text-align: left;
     }

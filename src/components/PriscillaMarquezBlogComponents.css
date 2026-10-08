@@ -19,7 +19,6 @@
     font-size: 4vw;
     font-weight: normal;
     text-align: left;
-    letter-spacing: -0.6vw;
 }
 
 .priscilla-marquez-middle-container {
@@ -38,7 +37,6 @@
     text-align: center;
     margin: 1vw;
     margin-top: 3vw;
-    letter-spacing: -0.2vw;
 }
 
 .priscilla-marquez-middle-container h2 {
@@ -50,21 +48,21 @@
 
 .priscilla-marquez-middle-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
 
 .priscilla-marquez-middle-container p2 {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 20px;
     text-align: left;
 }
 
 .priscilla-marquez-middle-container p3 {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 24px;
     text-align: left;
 }
@@ -119,14 +117,14 @@
 
     .priscilla-marquez-middle-container p2 {
         color: #000;
-        font-family: 'JuraBold';
+        font-family: 'MyFont';
         font-size: 16px;
         text-align: left;
     }
 
     .priscilla-marquez-middle-container p3 {
         color: #000;
-        font-family: 'JuraBold';
+        font-family: 'MyFont';
         font-size: 18px;
         text-align: left;
     }

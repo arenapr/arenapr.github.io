@@ -14,12 +14,11 @@
     text-align: left;
     margin-top: 1vw;
     margin-bottom: 2vw;
-    letter-spacing: -0.2vw;
 }
 
 .jackie-herald-blog-middle-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
     margin-left: 2vw;
@@ -73,7 +72,7 @@
 
 .image-caption {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: center;
     display: inline-block;
@@ -87,14 +86,14 @@
 
 .jackie-herald-body-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
 
 .jackie-herald-body-container b {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 14px;
     text-align: left;
 }

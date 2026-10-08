@@ -34,18 +34,22 @@ function Footer() {
       <section className='footer-subscription'>
         <div className='footer-link-items'>
           <Link to='https://www.instagram.com/arena__pr/' target="_blank">
-            <img src='/images/IG-arena_White copy.png' width={40} height={40} alt='IG Logo' /><br/>
-          </Link>
-          <Link to='https://www.instagram.com/arena__pr/' target="_blank">
-            @arena__pr
+            <img src='/images/social-media-icons_instagram.png' width={50} height={50} alt='IG Logo' /><br/>
           </Link>
         </div>
         <div className='footer-link-items'>
           <Link to='https://www.youtube.com/@arena-pr/videos' target="_blank">
-            <img src='/images/Arena_Youtube_White copy.png' width={50} height={40} alt='IG Logo' /><br/>
+            <img src='/images/social-media-icons_youtube.png' width={50} height={50} alt='YT Logo' /><br/>
           </Link>
-          <Link to='https://www.youtube.com/@arena-pr/videos' target="_blank">
-            @arena-pr
+        </div>
+        <div className='footer-link-items'>
+          <Link to='https://www.tiktok.com/@arena__pr' target="_blank">
+            <img src='/images/social-media-icons_tiktok.png' width={50} height={50} alt='TT Logo' /><br/>
+          </Link>
+        </div>
+        <div className='footer-link-items'>
+          <Link to='https://www.linkedin.com/company/the-arena-project' target="_blank">
+            <img src='/images/social-media-icons_linkedin.png' width={50} height={50} alt='LI Logo' /><br/>
           </Link>
         </div>
       </section>
@@ -55,7 +59,7 @@ function Footer() {
                     <Link to='/contact-us'>CONTACT US</Link>
                     <Link to='/privacy-policy'>PRIVACY POLICY</Link>
                 </div>
-                <p>All Rights Reserved © 2025</p>
+                <p>All Rights Reserved © 2026</p>
             </div>
         </div>
     </div>

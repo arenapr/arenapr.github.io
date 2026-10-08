@@ -14,7 +14,6 @@
     text-align: center;
     margin: 1vw;
     margin-top: 3vw;
-    letter-spacing: -0.2vw;
 }
 
 .alicia-flores-blog-middle-container h2 {
@@ -26,14 +25,14 @@
 
 .alicia-flores-blog-middle-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
 
 .alicia-flores-blog-middle-container p2 {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 18px;
     text-align: left;
 }
@@ -97,7 +96,7 @@
 }
 
 b {
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-weight: bold;
     font-size: smaller; 
 }
@@ -110,7 +109,7 @@ b {
 
 .alicia-flores-body-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 2vw;
     text-align: left;
     line-height: 2.5vw;
@@ -118,7 +117,7 @@ b {
 
 .alicia-flores-body-container b {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 3vw;
     text-align: left;
     line-height: 2.5vw;

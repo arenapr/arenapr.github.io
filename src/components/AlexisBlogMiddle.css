@@ -14,12 +14,11 @@
     text-align: center;
     margin: 1vw;
     margin-top: 1vw;
-    letter-spacing: -0.2vw;
 }
 
 .alexis-blog-middle-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
@@ -50,14 +49,14 @@
 
 .alexis-body-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
 
 .alexis-body-container b {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 24px;
     text-align: left;
 }

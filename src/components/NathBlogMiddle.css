@@ -14,12 +14,11 @@
     text-align: center;
     margin-top: 1vw;
     margin-bottom: 2vw;
-    letter-spacing: -0.2vw;
 }
 
 .nath-blog-middle-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
     margin-left: 2vw;
@@ -73,7 +72,7 @@
 
 .image-caption {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: center;
     display: inline-block;
@@ -87,14 +86,14 @@
 
 .nath-body-container p {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 12px;
     text-align: left;
 }
 
 .nath-body-container b {
     color: #000;
-    font-family: 'JuraBold';
+    font-family: 'MyFont';
     font-size: 14px;
     text-align: left;
 }

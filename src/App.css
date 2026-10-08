@@ -1,7 +1,7 @@
 @font-face { 
   font-family: 'MyFont'; 
   src: 
-      url('./assets/fonts/KronaOne-Regular.ttf')  
+      url('./assets/fonts/Inter-VariableFont_opsz,wght.ttf')  
       format('opentype'); 
       font-weight: normal; 
       font-style: normal; 
@@ -20,6 +20,15 @@
   font-family: 'JuraBold'; 
   src: 
       url('./assets/fonts/Jura/Jura-Bold.ttf')  
+      format('opentype'); 
+      font-weight: normal; 
+      font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'Krona'; 
+  src: 
+      url('./assets/fonts/KronaOne-Regular.ttf')  
       format('opentype'); 
       font-weight: normal; 
       font-style: normal; 

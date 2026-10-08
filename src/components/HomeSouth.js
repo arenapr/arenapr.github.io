@@ -35,12 +35,9 @@ function HomeSouth() {
           <h1>
               We are in constant search for emerging local talent in the borderland.<br/><br/>
               Are you a local fashion designer that wants to showcase your work?<br/><br/>
-              Send us an email and let us know!<br/><span style={{color: '#ca3631'}}>arena.pr@outlook.com</span><br/><br/>
+              Send us an email and let us know!<br/><span style={{color: '#f7f7f7'}}>hello@the-arena-project.com</span><br/><br/>
               Please include your name, the name of your brand, and your social media handles.
           </h1>
-          <div  ref={squareRef} 
-               className={`home-south-red-square ${hasAnimated ? 'visible' : 'hidden'}`}>
-          </div>
       </div>
     </div>
   )

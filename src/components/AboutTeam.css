@@ -37,7 +37,7 @@
 }
 
 .team-image-container p {
-  font-family: 'JuraBold';
+  font-family: 'MyFont';
   font-size: calc(6px + 1vw);
   font-weight: normal;
   grid-row: 16 / span 5;

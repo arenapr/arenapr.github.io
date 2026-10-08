@@ -1,17 +1,22 @@
 video {
-    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    position: fixed;
-    z-index: -1;
+    object-fit: cover;
+    z-index: -2;
+    filter: grayscale(100%);
 }
 
 .home-north-container {
-    background: #000 center center/cover no-repeat;
-    width: 100%;
-    display: grid;
-    row-gap: 1vh;
-    padding: 2vw;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-north-container > h1 {
@@ -31,14 +36,25 @@ video {
 .arena-box {
   width: 280px;
   height: 280px;
-  background-color: #ca3631;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 80px;
+  font-family: 'Krona';
+  font-size: 10rem;
   font-weight: normal;
   text-transform: uppercase;
   margin-top: 80px;
   margin-bottom: 80px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 960px) {
+  .home-north-container {
+    height: 80vh;
+  }
+
+  .arena-box {
+    font-size: 5rem;
+  }
 }
