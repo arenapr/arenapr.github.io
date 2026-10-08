@@ -9,7 +9,7 @@ function NickoBlogMiddle(props) {
         <div className='nicko-blog-middle-container'>
           <p>Updated on 1.17.2025 by Fernanda Ortiz</p><br/><br/>
           <div className='nicko-images-container'>
-              <img src='../images/Meaningless_1_1080x1920-02.png' alt='Meaningless Image'></img>
+              <img src='../images/Meaningless_1_1080x1920-02_copy.png' alt='Meaningless Image'></img>
           </div>
           <h1>In the world of fashion, where trends come and go like seasons, Nicko Sena is crafting a legacy 
               that transcends the transient. From his studio in El Paso, Texas, this visionary designer behind 
