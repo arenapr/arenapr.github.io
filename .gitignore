@@ -23,3 +23,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 ./src/assets/videos/hero-video-models.mp4
+./src/assets/videos/hero-bw-models.mp4
+*.mp4
