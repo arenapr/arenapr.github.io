@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5498cabf.css",
-    "main.js": "/static/js/main.26eadee7.js",
+    "main.css": "/static/css/main.338c2c11.css",
+    "main.js": "/static/js/main.4fd39e4b.js",
+    "static/media/hero-bw-models.mp4": "/static/media/hero-bw-models.e14131d9e48f7dff511b.mp4",
     "static/media/hex_by_lex.jpg": "/static/media/hex_by_lex.4338179d2b14e3a35503.jpg",
     "static/media/gbenga-onalaja-unsplash.jpg": "/static/media/gbenga-onalaja-unsplash.2057086ab0a5725becd9.jpg",
+    "static/media/Inter-VariableFont_opsz,wght.ttf": "/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/Jura-Regular.ttf": "/static/media/Jura-Regular.0a4ac78909358bf67d67.ttf",
     "static/media/Jura-Bold.ttf": "/static/media/Jura-Bold.ebc36b579e40c6b39a15.ttf",
     "static/media/KronaOne-Regular.ttf": "/static/media/KronaOne-Regular.97c7e647eef168b16a0b.ttf",
     "index.html": "/index.html",
-    "main.5498cabf.css.map": "/static/css/main.5498cabf.css.map",
-    "main.26eadee7.js.map": "/static/js/main.26eadee7.js.map"
+    "main.338c2c11.css.map": "/static/css/main.338c2c11.css.map",
+    "main.4fd39e4b.js.map": "/static/js/main.4fd39e4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5498cabf.css",
-    "static/js/main.26eadee7.js"
+    "static/css/main.338c2c11.css",
+    "static/js/main.4fd39e4b.js"
   ]
 }
