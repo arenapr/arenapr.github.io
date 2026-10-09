@@ -1,27 +1,27 @@
-.home-middle-2-container {
+.word-block-container {
   background-color: #000;
 }
 
-.home-middle-2-inner {
+.word-block-inner {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50vh;
 }
 
-.home-middle-2-container h1 {
+.word-block-container h1 {
   color: #fff;
   font-size: 90px;
   font-weight: normal;
 }
 
 @media screen and (max-width: 960px) {
-  .home-middle-2-inner {
+  .word-block-inner {
     width: 100%;
     height: 20vh;
   }
 
-  .home-middle-2-container h1 {
+  .word-block-container h1 {
     font-size: 7vw;
   }
 }

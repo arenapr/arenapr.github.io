@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import '../../App.css'
 import HomeNorth from '../HomeNorth'
 import HomeMiddle from '../HomeMiddle';
-import HomeMiddle2 from '../HomeMiddle2';
+import WordBlock from '../WordBlock';
 import HomeSouth from '../HomeSouth';
 import Footer from '../Footer';
 import { useLocation } from 'react-router-dom';
@@ -37,7 +37,9 @@ function Home() {
     return (
         <>
           <HomeNorth />
-          <HomeMiddle2 />
+          <WordBlock 
+            title={["SUPPORTING DESIGNERS.", <br/>, "CELEBRATING COMMUNITY."]}
+          />
           <HomeMiddle />
           <HomeSouth />
           <Footer />

@@ -53,12 +53,10 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/'
+                to='/about'
                 className='nav-links about-link'
                 onClick={(e) => {
-                  e.preventDefault();
                   closeMobileMenu();
-                  scrollToHomeAbout();
                 }}
               >
                 ABOUT

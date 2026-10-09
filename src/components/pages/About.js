@@ -1,18 +1,18 @@
-import React from 'react'
 import '../../App.css'
-import AboutNorth from '../AboutNorth'
-import AboutMiddle from '../AboutMiddle'
-import AboutSouth from '../AboutSouth'
-import AboutTeam from '../AboutTeam'
+import AboutHero from '../AboutHero';
+import HomeSouth from '../HomeSouth';
 import Footer from '../Footer';
+import WordBlock from '../WordBlock';
 
 function About() {
     window.scrollTo(0, 0);
     return (
         <>
-          <AboutNorth />
-          <AboutMiddle />
-          <AboutSouth />
+          <AboutHero />
+          <WordBlock 
+            title="FASHION. CULTURE. COMMUNITY."
+          />
+          <HomeSouth />
           <Footer />
         </>
     );

@@ -1,0 +1,41 @@
+.about-hero-container {
+    background: url('../assets/images/hero-about-arena.png') center center/cover no-repeat;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+  
+.about-hero-container > h1 {
+    color: #fff;
+    width: 90vw;
+    font-size: 5rem;
+    font-family: 'Krona';
+    font-weight: normal;
+}
+  
+.about-hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+}
+  
+@media screen and (max-width: 960px) {
+    .about-hero-container {
+        width: 100vw;
+    }
+    .about-hero-container > h1 {
+      font-size: 10vw;
+      width: 100vw;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .about-hero-container > p {
+      font-size: 30px;
+    }
+}
