@@ -14,20 +14,20 @@
 
 .word-block2-container h1 {
   color: #f7f7f7;
-  font-size: 5rem;
+  font-size: 6vw;
   font-weight: normal;
 }
 
 .word-block2-container p {
   color: #f7f7f7;
-  font-size: 2rem;
+  font-size: 3vw;
   font-weight: normal;
 }
 
 @media screen and (max-width: 960px) {
   .word-block2-inner {
     width: 100%;
-    height: 30vh;
+    height: 40vh;
   }
 
   .word-block2-container h1 {
