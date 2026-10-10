@@ -5,6 +5,7 @@ function WordBlock(props) {
     <div className='word-block-container'>
       <div className='word-block-inner'>
         <h1>{props.title}</h1>
+        <p>{props.text}</p>
       </div>
     </div>
   )

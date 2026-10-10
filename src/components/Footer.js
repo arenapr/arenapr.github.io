@@ -56,7 +56,7 @@ function Footer() {
         <div className='footer-links'>
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
-                    <Link to='/contact-us'>CONTACT US</Link>
+                    {/* <Link to='/contact-us'>CONTACT US</Link> */}
                     <Link to='/privacy-policy'>PRIVACY POLICY</Link>
                 </div>
                 <p>All Rights Reserved © 2026</p>

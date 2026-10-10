@@ -4,24 +4,37 @@
 
 .word-block-inner {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 50vh;
+  width: 90%;
+  margin-inline: auto;
 }
 
 .word-block-container h1 {
   color: #fff;
-  font-size: 90px;
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+.word-block-container p {
+  color: #fff;
+  font-size: 2rem;
   font-weight: normal;
 }
 
 @media screen and (max-width: 960px) {
   .word-block-inner {
     width: 100%;
-    height: 20vh;
+    height: 30vh;
   }
 
   .word-block-container h1 {
-    font-size: 7vw;
+    font-size: 6vw;
+  }
+
+  .word-block-container p {
+    font-size: 3vw;
   }
 }

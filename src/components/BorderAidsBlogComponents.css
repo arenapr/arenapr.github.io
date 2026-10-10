@@ -1,0 +1,153 @@
+.border-aids-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: 0 auto;
+    padding: 2vw;
+}
+
+.border-aids-inner {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+
+.border-aids-container h1 {
+    color: #000;
+    font-size: 4vw;
+    font-weight: normal;
+    text-align: left;
+}
+
+.border-aids-middle-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    padding: 2vw;
+}
+
+.border-aids-middle-container h1 {
+    color: #000;
+    font-size: 3vw;
+    font-weight: normal;
+    text-align: center;
+    margin: 1vw;
+    margin-top: 3vw;
+}
+
+.border-aids-middle-container h2 {
+    color: #000;
+    font-size: 2vw;
+    font-weight: normal;
+    text-align: left;
+}
+
+.border-aids-middle-container p {
+    color: #000;
+    font-family: 'MyFont';
+    font-size: 12px;
+    text-align: left;
+}
+
+.border-aids-middle-container p2 {
+    color: #000;
+    font-family: 'MyFont';
+    font-size: 20px;
+    text-align: left;
+}
+
+.border-aids-middle-container p3 {
+    color: #000;
+    font-family: 'MyFont';
+    font-size: 24px;
+    text-align: left;
+}
+
+.border-aids-side-by-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    gap: 25px;
+}
+
+.border-aids-side-by-side h1 {
+    font-size: 1.9rem;
+    text-align: left;
+    width: 50%;
+}
+
+.border-aids-side-by-side p2 {
+    align-self:center;
+    font-size: 22px;
+    width: 50%;
+}
+
+.border-aids-side-by-side > img {
+    height: 60vh;
+    display: block;
+}
+
+@media screen and (max-width: 960px) {
+    .border-aids-container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: auto;
+    }
+
+    .border-aids-container h1 {
+        font-size: 5vw;
+    }
+
+    .border-aids-middle-container {
+        padding: 5vw;
+        width: auto;
+    }
+
+    .border-aids-middle-container h2 {
+        font-size: 4vw;
+        text-align: left;
+    }
+
+    .border-aids-middle-container p2 {
+        color: #000;
+        font-family: 'MyFont';
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .border-aids-middle-container p3 {
+        color: #000;
+        font-family: 'MyFont';
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .border-aids-side-by-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .border-aids-side-by-side > img {
+        /* width: 90vw; */
+        /* height: auto; */
+        /* margin-bottom: 10px; */
+        /* width: 100%; */
+    }
+
+    .border-aids-side-by-side p2 {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .border-aids-side-by-side h1 {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+}
