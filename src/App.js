@@ -21,6 +21,7 @@ import DanielaCarrancoBlog from './components/pages/Blogs/DanielaCarrancoBlog';
 import DamarisAldereteBlog from './components/pages/Blogs/DamarisAldereteBlog';
 import PriscillaMarquezBlog from './components/pages/Blogs/PriscillaMarquezBlog';
 import BorderAidsBlog from './components/pages/Blogs/BorderAidsBlog';
+import PaolaCoronadoBlog from './components/pages/Blogs/PaolaCoronadoBlog';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Route path='blog/damaris-alderete-blog' Component={DamarisAldereteBlog} />
         <Route path='blog/priscilla-marquez-blog' Component={PriscillaMarquezBlog} />
         <Route path='blog/border-aids-blog' Component={BorderAidsBlog} />
+        <Route path='blog/paola-coronado-blog' Component={PaolaCoronadoBlog} />
       </Routes>
     </Router>
     </>
