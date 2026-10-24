@@ -1,0 +1,166 @@
+.raul-garcia-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: 0 auto;
+    padding: 2vw;
+}
+
+.raul-garcia-inner {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+
+.raul-garcia-container h1 {
+    color: #000;
+    font-size: 4vw;
+    font-weight: normal;
+    text-align: left;
+}
+
+.raul-garcia-middle-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    padding: 2vw;
+}
+
+.raul-garcia-middle-container h1 {
+    color: #000;
+    font-size: 3vw;
+    font-weight: normal;
+    text-align: center;
+    margin: 1vw;
+    margin-top: 3vw;
+}
+
+.raul-garcia-middle-container h2 {
+    color: #000;
+    font-size: 2vw;
+    font-weight: normal;
+    text-align: left;
+}
+
+.raul-garcia-middle-container p {
+    color: #000;
+    font-family: 'MyFont';
+    font-size: 12px;
+    text-align: left;
+}
+
+.raul-garcia-middle-container p2 {
+    color: #000;
+    font-family: 'MyFont';
+    font-size: 20px;
+    text-align: left;
+}
+
+.raul-garcia-middle-container p3 {
+    color: #000;
+    font-family: 'MyFont';
+    font-size: 24px;
+    text-align: left;
+}
+
+.raul-garcia-middle-container i {
+    color: #000;
+    font-family: 'MyFont';
+    font-size: 20px;
+    text-align: left;
+    margin-inline: 5vw;
+}
+
+.raul-garcia-middle-container i2 {
+    color: #000;
+    font-family: 'MyFont';
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.raul-garcia-side-by-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    gap: 25px;
+}
+
+.raul-garcia-side-by-side h1 {
+    font-size: 1.9rem;
+    text-align: left;
+    width: 50%;
+}
+
+.raul-garcia-side-by-side p2 {
+    align-self:center;
+    font-size: 22px;
+    width: 50%;
+}
+
+.raul-garcia-side-by-side > img {
+    height: 60vh;
+    display: block;
+}
+
+@media screen and (max-width: 960px) {
+    .raul-garcia-container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: auto;
+    }
+
+    .raul-garcia-container h1 {
+        font-size: 5vw;
+    }
+
+    .raul-garcia-middle-container {
+        padding: 5vw;
+        width: auto;
+    }
+
+    .raul-garcia-middle-container h2 {
+        font-size: 6vw;
+        text-align: left;
+    }
+
+    .raul-garcia-middle-container p2 {
+        color: #000;
+        font-family: 'MyFont';
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .raul-garcia-middle-container p3 {
+        color: #000;
+        font-family: 'MyFont';
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .raul-garcia-side-by-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .raul-garcia-side-by-side p2 {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .raul-garcia-side-by-side h1 {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .raul-garcia-middle-container i2 {
+        font-size: 1rem;
+    }
+}
