@@ -11,6 +11,11 @@ function BlogMiddle() {
           <div className='cards__wrapper'>
               <ul className='cards__items'>
                   <CardItem 
+                    src='/images/blog-image-500x500.jpg'
+                    text="EMERGING DESIGNER RAUL ALEJANDRO GARCIA IS CRAFTING HIS FASHION LEGACY"
+                    path='./raul-garcia-blog'
+                  />
+                  <CardItem 
                     src='/images/thumb-drags-500x500.png'
                     text="BORDER AIDS’ BORDER RUNWAY: FASHION AS AN ACT OF COMMUNITY"
                     path='./border-aids-blog'
@@ -20,13 +25,13 @@ function BlogMiddle() {
                     text="MORE THAN JUST CLOTHES: PAOLA CORONADO AND THE ART OF STYLING"
                     path='./paola-coronado-blog'
                   />
-                  <CardItem 
+              </ul>
+              <ul className='cards__items'>
+                <CardItem 
                     src='/images/priscilla-900x900Artboard-1.png'
                     text="MORE THAN A CHAIN: PRISCILLA MARQUEZ IS REDEFINING PERMANENT JEWELRY"
                     path='./priscilla-marquez-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                   <CardItem 
                     src='/images/damaris-500x500 copy.webp'
                     text="RUFFLES, TULLE, AND 'NONSENSE': DAMARI ALDERETE'S FANTASTICAL VISION"
@@ -37,13 +42,13 @@ function BlogMiddle() {
                     text='A NEW VOICE IN FASHION IN THE SOUTHWEST: DANIELA CARRANCO'
                     path='./daniela-carranco-blog'
                   />
-                  <CardItem 
+              </ul>
+              <ul className='cards__items'>
+                <CardItem 
                     src='/images/andyc-800x800.jpg'
                     text='SLOWING DOWN, STITCH BY STITCH WITH ANDY CASTANEDA'
                     path='./andy-castaneda-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                   <CardItem 
                     src='/images/0-jamie-saenz-400x400.png'
                     text='JAMIE SAENZ: DESIGNING WITH PASSION, PURPOSE, AND HEART'
@@ -54,13 +59,13 @@ function BlogMiddle() {
                     text='MEET ALICIA FLORES: THE DREAMER BEHIND ENEDINA ROSE'
                     path='./alicia-flores-blog'
                   />
-                  <CardItem 
+              </ul>
+              <ul className='cards__items'>
+                <CardItem 
                     src='/images/IMG_CAB578B9F867-1.jpeg'
                     text='JACKIE HERALD: REDEFINING FASHION AS ART ON THE BORDER'
                     path='./jackie-herald-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                 <CardItem 
                     src='images/DSC_0234-square.png'
                     text='HILVENIA COLLECTIVE: STYLE, IDENTITY, AND DREAMS'
@@ -71,13 +76,13 @@ function BlogMiddle() {
                     text='CLASSICALLY EXTRAVAGANT: INSIDE HYPNOSIS BY NATH DE LA MORA'
                     path='./nath-mora-blog'
                   />
+              </ul>
+              <ul className='cards__items'>
                 <CardItem 
                     src='images/Meaningless_1080x1080.png'
                     text="MAKING CONNECTIONS: NICKO SENA'S MEANINGLESS CONNECTION"
                     path='./nicko-sena-blog'
-                  />
-              </ul>
-              <ul className='cards__items'>
+                />
                 <CardItem 
                     src='images/6par6noid6.jpeg'
                     text='SERGIO ESTRADA AND THE PURSUIT OF EXCELLENCE'
