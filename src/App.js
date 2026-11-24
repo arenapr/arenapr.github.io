@@ -23,6 +23,7 @@ import PriscillaMarquezBlog from './components/pages/Blogs/PriscillaMarquezBlog'
 import BorderAidsBlog from './components/pages/Blogs/BorderAidsBlog';
 import PaolaCoronadoBlog from './components/pages/Blogs/PaolaCoronadoBlog';
 import RaulGarciaBlog from './components/pages/Blogs/RaulGarciaBlog';
+import BorderlandFashionBlog from './components/pages/Blogs/BorderlandFashionBlog';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path='blog/border-aids-blog' Component={BorderAidsBlog} />
         <Route path='blog/paola-coronado-blog' Component={PaolaCoronadoBlog} />
         <Route path='blog/raul-garcia-blog' Component={RaulGarciaBlog} />
+        <Route path='blog/borderland-fashion-blog' Component={BorderlandFashionBlog} />
       </Routes>
     </Router>
     </>

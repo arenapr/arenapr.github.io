@@ -175,7 +175,7 @@ function RaulGarciaBlogComponents(props) {
             </p2>
             <br/>
             <p2>
-              One person currently on his list of potential collaborators is Daniela 
+              One person currently on his list of potential collaborators is Valeria 
               Villalobos, a content creator from Juárez known for crafting outfits 
               from scratch. To Alejandro, she embodies something he deeply admires: 
               the ability to turn an idea into reality, even when the process is complex.
