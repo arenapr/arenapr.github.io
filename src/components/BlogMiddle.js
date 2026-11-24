@@ -11,6 +11,11 @@ function BlogMiddle() {
           <div className='cards__wrapper'>
               <ul className='cards__items'>
                   <CardItem 
+                    src='/images/borderland-fashion-400x400.png'
+                    text="BORDERLAND FASHION: A HISTORY THAT'S RARELY SPOKEN ABOUT"
+                    path='./borderland-fashion-blog'
+                  />
+                  <CardItem 
                     src='/images/blog-image-500x500.jpg'
                     text="EMERGING DESIGNER RAUL ALEJANDRO GARCIA IS CRAFTING HIS FASHION LEGACY"
                     path='./raul-garcia-blog'
@@ -20,13 +25,13 @@ function BlogMiddle() {
                     text="BORDER AIDS’ BORDER RUNWAY: FASHION AS AN ACT OF COMMUNITY"
                     path='./border-aids-blog'
                   />
-                  <CardItem 
+              </ul>
+              <ul className='cards__items'>
+                <CardItem 
                     src='/images/paola-500x500.jpg'
                     text="MORE THAN JUST CLOTHES: PAOLA CORONADO AND THE ART OF STYLING"
                     path='./paola-coronado-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                 <CardItem 
                     src='/images/priscilla-900x900Artboard-1.png'
                     text="MORE THAN A CHAIN: PRISCILLA MARQUEZ IS REDEFINING PERMANENT JEWELRY"
@@ -34,16 +39,16 @@ function BlogMiddle() {
                   />
                   <CardItem 
                     src='/images/damaris-500x500 copy.webp'
-                    text="RUFFLES, TULLE, AND 'NONSENSE': DAMARI ALDERETE'S FANTASTICAL VISION"
+                    text="RUFFLES, TULLE, AND 'NONSENSE': DAMARIS ALDERETE'S FANTASTICAL VISION"
                     path='./damaris-alderete-blog'
                   />
-                  <CardItem 
+              </ul>
+              <ul className='cards__items'>
+                <CardItem 
                     src='/images/danielaC-square.jpg'
                     text='A NEW VOICE IN FASHION IN THE SOUTHWEST: DANIELA CARRANCO'
                     path='./daniela-carranco-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                 <CardItem 
                     src='/images/andyc-800x800.jpg'
                     text='SLOWING DOWN, STITCH BY STITCH WITH ANDY CASTANEDA'
@@ -54,13 +59,13 @@ function BlogMiddle() {
                     text='JAMIE SAENZ: DESIGNING WITH PASSION, PURPOSE, AND HEART'
                     path='./jamie-saenz-blog'
                   />
-                  <CardItem 
+              </ul>
+              <ul className='cards__items'>
+                <CardItem 
                     src='/images/alicia-square.JPG'
                     text='MEET ALICIA FLORES: THE DREAMER BEHIND ENEDINA ROSE'
                     path='./alicia-flores-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                 <CardItem 
                     src='/images/IMG_CAB578B9F867-1.jpeg'
                     text='JACKIE HERALD: REDEFINING FASHION AS ART ON THE BORDER'
@@ -71,13 +76,14 @@ function BlogMiddle() {
                     text='HILVENIA COLLECTIVE: STYLE, IDENTITY, AND DREAMS'
                     path='./hilvenia-blog'
                   />
+                
+              </ul>
+              <ul className='cards__items'>
                 <CardItem 
                     src='images/nath-500x500.png'
                     text='CLASSICALLY EXTRAVAGANT: INSIDE HYPNOSIS BY NATH DE LA MORA'
                     path='./nath-mora-blog'
                   />
-              </ul>
-              <ul className='cards__items'>
                 <CardItem 
                     src='images/Meaningless_1080x1080.png'
                     text="MAKING CONNECTIONS: NICKO SENA'S MEANINGLESS CONNECTION"
